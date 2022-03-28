@@ -1,5 +1,5 @@
-<!doctype html>
-<html lang="en">
+<!DOCTYPE html>
+<html lang="{{ str_replace('_', '-', app()->getLocale()) }}">
 
 <head>
     <!-- Required meta tags -->
@@ -25,6 +25,11 @@
 </head>
 
 <body>
+    <!-- Navigation -->
+@section('header')
+    @include('layouts.include.header')
+@show
+
     @yield('content')
 
     <!-- Bootstrap Bundle with Popper -->
@@ -34,6 +39,12 @@
 
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
     <script src="{{ asset('assets/js/app.js') }}"></script>
+
+    <!-- Navigation -->
+@section('footer')
+    @include('layouts.include.footer')
+@show
+
 </body>
 
 </html>
