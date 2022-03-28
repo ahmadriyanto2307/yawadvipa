@@ -1,6 +1,6 @@
-<nav class="navbar navbar-expand-lg navbar-light fixed-top">
+<nav class="navbar navbar-expand-xl navbar-light fixed-top">
     <div class="container">
-        <a class="navbar-brand " href="#">
+        <a class="navbar-brand pe-3" href="{{ route('home') }}">
             <img class="navbar-brand" src="{{ asset('assets/files/pictures/logo.png') }}" alt="..." />
         </a>
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup"
@@ -9,7 +9,6 @@
         </button>
         <div class="collapse navbar-collapse justify-content-center py-3" id="navbarNavAltMarkup">
             <ul class="navbar-nav text-center">
-
                 <li class="nav-item">
                     <a class="nav-link active" href="{{ route('home') }}" aria-current="page" href="#">Home</a>
                 </li>
