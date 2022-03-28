@@ -1,0 +1,133 @@
+/* Navbar */
+
+.navbar-brand{
+    color: #d7a03a !important;
+    padding-right: 37%;
+}
+
+.nav-link {
+    color: #d7a03a !important;
+}
+.navbar-brand:hover,
+.nav-link:hover {
+    color: #00b950 !important;
+}
+
+.nav-link:hover::after {
+    content: "";
+    display: block;
+    border-bottom: 3px solid #00b950;
+    width: 50%;
+    margin: auto;
+    padding-bottom: 5px;
+    margin-bottom: -8px;
+}
+
+.nav-link.contact-us {
+    color: white !important;
+    background-color: #d7a03a;
+    border-radius: 15px;
+}
+.nav-link.contact-us:hover {
+    background-color: #00b950;
+    box-shadow: 10px;
+}
+
+nav {
+    transition: all 0.4s ease-in-out;
+}
+
+.myClass {
+    background-color: white;
+    transition: all 0.4s ease-in-out;
+}
+
+div#jumbotron {
+    background-color: #00b950;
+    color: #fff;
+}
+
+/* End Navbar */
+
+/* Carousel */
+
+.carousel-item {
+    height: 100vh;
+    min-height: 350px;
+    background: no-repeat center center scroll;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+.carousel-item::before {
+    content: "";
+    display: block;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: black;
+    opacity: 0.6;
+}
+
+.carousel-caption {
+    transform: translateY(-50%);
+    bottom: 0;
+    top: 58%;
+}
+.carousel-caption > h1 {
+    font-family: Anton;
+    font-size: 62px;
+}
+/* End Carousel */
+
+/* Ultility */
+#button-mod {
+    border-radius: 10px;
+    background-color: #d7a03a;
+    border-color: #d7a03a;
+}
+#button-mod:hover {
+    border-color: #00b950;
+    border-width: -1px;
+}
+#color-mod {
+    color: #d7a03a;
+}
+
+.under-line::after {
+    content: "";
+    display: block;
+    border-bottom: 3px solid #d7a03a;
+    width: 20%;
+    margin: auto;
+    padding-bottom: 5px;
+    margin-bottom: -8px;
+}
+
+/* End Ultility */
+
+/* Text Alignment */
+p.text-justify {
+    margin: 0;
+    text-align: justify;
+}
+/* End Text ALignment */
+
+/* Mobile Version */
+@media (max-width: 991.98px) {
+    .navbar {
+        background-color: white;
+    }
+
+    .carousel-caption {
+        transform: translateY(-50%);
+        bottom: 0;
+        top: 50%;
+    }
+}
+
+/* End Mobile Version */
