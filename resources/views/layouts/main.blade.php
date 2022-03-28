@@ -26,11 +26,12 @@
 
 <body>
     <!-- Navigation -->
-@section('header')
     @include('layouts.include.header')
-@show
 
     @yield('content')
+
+    <!-- Footer -->
+    @include('layouts.include.footer')
 
     <!-- Bootstrap Bundle with Popper -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
@@ -39,11 +40,6 @@
 
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
     <script src="{{ asset('assets/js/app.js') }}"></script>
-
-    <!-- Navigation -->
-@section('footer')
-    @include('layouts.include.footer')
-@show
 
 </body>
 
