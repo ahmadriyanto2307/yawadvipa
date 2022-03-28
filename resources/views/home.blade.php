@@ -2,7 +2,8 @@
 
 @section('content')
 
-    {{-- Start Carousel --}}
+
+{{-- Start Carousel --}}
     <header>
 
         <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
