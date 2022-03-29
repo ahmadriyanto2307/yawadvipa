@@ -13,7 +13,7 @@ class HubungiController extends Controller
      */
     public function index()
     {
-        return viem ('hubungi');
+        return view('hubungi');
     }
 
     /**
