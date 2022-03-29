@@ -2,12 +2,7 @@
 
 use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\HomeController;
-use App\Http\Controllers\JatengController;
-use App\Http\Controllers\JogjaController;
-use App\Http\Controllers\TeamController;
-use App\Http\Controllers\BlogController;
-use App\Http\Controllers\AboutController;
-use App\Http\Controllers\HubungiController;
+use App\Http\Controllers\ProductController;
 /*
 |--------------------------------------------------------------------------
 | Web Routes
@@ -21,9 +16,5 @@ use App\Http\Controllers\HubungiController;
 
 Route::get('/', [HomeController::class, 'index'])->name('home');
 Route::get('/home', [HomeController::class, 'index'])->name('home');
-Route::get('/jateng', [HomeController::class, 'index'])->name('jateng');
-Route::get('/jogja', [HomeController::class, 'index'])->name('jogja');
-Route::get('/team', [HomeController::class, 'index'])->name('team');
-Route::get('/blog', [HomeController::class, 'index'])->name('blog');
-Route::get('/about', [HomeController::class, 'index'])->name('about');
-Route::get('/hubungi', [HomeController::class, 'index'])->name('hubungi');
+Route::get('/product_jateng', [ProductController::class, 'product_jateng'])->name('product_jateng');
+Route::get('/product_jogja', [ProductController::class, 'product_jogja'])->name('product_jogja');
