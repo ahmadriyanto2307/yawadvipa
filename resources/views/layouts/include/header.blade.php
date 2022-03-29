@@ -1,7 +1,7 @@
-<nav class="navbar navbar-expand-lg navbar-light fixed-top">
+<nav class="navbar navbar-expand-xl navbar-light fixed-top">
     <div class="container">
-        <a class="navbar-brand " href="#">
-        <img class="navbar-brand" src="{{ asset('assets/files/pictures/logo.png') }}" alt="..."/>
+        <a class="navbar-brand pe-3" href="{{ route('home') }}">
+            <img class="navbar-brand" src="{{ asset('assets/files/pictures/logo.png') }}" alt="..." />
         </a>
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup"
             aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
@@ -9,7 +9,6 @@
         </button>
         <div class="collapse navbar-collapse justify-content-center py-3" id="navbarNavAltMarkup">
             <ul class="navbar-nav text-center">
-
                 <li class="nav-item">
                     <a class="nav-link active" href="{{ route('home') }}" aria-current="page" href="#">Home</a>
                 </li>
@@ -17,10 +16,14 @@
                     <a class="nav-link active" href="{{ route('jateng') }}" aria-current="page" href="#">Product&Services</a>
                 </li>
                 <li class="nav-item">
+<<<<<<< HEAD
                     <a class="nav-link active" href="{{ route('team') }}" aria-current="page" href="#">Team</a>
                 </li>
                 <li class="nav-item">
                     <a class="nav-link active" href="{{ route('blog') }}" aria-current="page" href="#">Blog</a>
+=======
+                    <a class="nav-link active" aria-current="page" href="#">Blog</a>
+>>>>>>> 762072e7f51ecdfb8fec586211ccab8e6409c90e
                 </li>
                 <li class="nav-item">
                     <a class="nav-link active" href="{{ route('about') }}" aria-current="page" href="#">About Us</a>

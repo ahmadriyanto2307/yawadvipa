@@ -1,6 +1,6 @@
 /* Navbar */
 
-.navbar-brand{
+.navbar-brand {
     color: #d7a03a !important;
     padding-right: 37%;
 }
@@ -43,7 +43,7 @@ nav {
 }
 
 div#jumbotron {
-    background-color: #00b950;
+    background-color: #99a5b0;
     color: #fff;
 }
 
@@ -118,7 +118,7 @@ p.text-justify {
 /* End Text ALignment */
 
 /* Mobile Version */
-@media (max-width: 991.98px) {
+@media (max-width: 1199.98px) {
     .navbar {
         background-color: white;
     }
