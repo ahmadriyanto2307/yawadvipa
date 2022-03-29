@@ -1,47 +1,58 @@
 @extends('layouts.main')
 
 @section('content')
-    {{-- Start Carousel --}}
-    <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
-        <div class="carousel-indicators">
-            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active"
-                aria-current="true" aria-label="Slide 1"></button>
-            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1"
-                aria-label="Slide 2"></button>
-        </div>
-        <div class="carousel-inner">
-            <div class="carousel-item active"
-                style="background-image: url('{{ asset('assets/files/pictures/slider-bg-1.jpg') }}')">
-                <div class="carousel-caption">
-                    <h1 class="animate__animated animate__bounceInDown animate__slow">Sinau Sareng <br>
-                        Yawadvipa</h1>
-                    <p class="animate__animated animate__bounceInUp">Mari Kita Menjelajahi Jawa Tengah Jogja
-                        <br>Kamu bisa menemukan Banyak Kebudayaan dan Wisata yang Menarik
-                    </p>
+
+<!-- Navigation -->
+@section('header')
+    @include('layouts.include.header')
+@show
+
+{{-- Start Carousel --}}
+    <header>
+
+        <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-indicators">
+                <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active"
+                    aria-current="true" aria-label="Slide 1"></button>
+                <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1"
+                    aria-label="Slide 2"></button>
+            </div>
+            <div class="carousel-inner">
+                <div class="carousel-item active"
+                    style="background-image: url('{{ asset('assets/files/pictures/slider-bg-1.jpg') }}')">
+                    <div class="carousel-caption">
+                        <h1 class="animate__animated animate__bounceInDown animate__slow">Sinau Sareng <br>
+                            Yawadvipa</h1>
+                        <p class="animate__animated animate__bounceInUp">Mari Kita Menjelajahi Jawa Tengah Jogja
+                            <br>Kamu bisa menemukan Banyak Kebudayaan dan Wisata yang Menarik
+                        </p>
+                    </div>
+                </div>
+                <div class="carousel-item"
+                    style="background-image: url('{{ asset('assets/files/pictures/slider-bg-2.jpg') }}')">
+                    <div class="carousel-caption">
+                        <h1 class="animate__animated animate__rollIn">Smart Eye Virtual<br> and
+                            3D Design</h1>
+                        <p class="animate__animated animate__zoomInUp">Yawadvipa Merupakan Virtual Tour Online yang
+                            Interaktif
+                            <br> Melalui Design dan Animasi 3D Visual Setara 360 Derajat
+                            <br> serta Dapat Berinteraksi Langsung dengan Pengunjung yang Lain
+                        </p>
+                    </div>
                 </div>
             </div>
-            <div class="carousel-item"
-                style="background-image: url('{{ asset('assets/files/pictures/slider-bg-2.jpg') }}')">
-                <div class="carousel-caption">
-                    <h1 class="animate__animated animate__rollIn">Smart Eye Virtual<br> and
-                        3D Design</h1>
-                    <p class="animate__animated animate__zoomInUp">Yawadvipa Merupakan Virtual Tour Online yang
-                        Interaktif
-                        <br> Melalui Design dan Animasi 3D Visual Setara 360 Derajat
-                        <br> serta Dapat Berinteraksi Langsung dengan Pengunjung yang Lain
-                    </p>
-                </div>
-            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions"
+                data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions"
+                data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+            </button>
         </div>
-        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
-            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-            <span class="visually-hidden">Previous</span>
-        </button>
-        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
-            <span class="carousel-control-next-icon" aria-hidden="true"></span>
-            <span class="visually-hidden">Next</span>
-        </button>
-    </div>
+    </header>
     {{-- End Carousel --}}
 
     {{-- Start About --}}
@@ -49,7 +60,7 @@
         <div class="container py-5">
             <h2 class="text-center pb-5 under-line">About Us</h2>
             <div class="row">
-                <div class="col-lg-6 align-self-center">
+                <div class="col-md-6 col-sm-6 col-xs-12 align-self-center">
                     <p class="text-justify"> Yawadvipa merupakan konsep baru dalam menjelajahi berbagai kebudayaan di jawa
                         tengah yang dilakukan
                         secara virtual bertujuan untuk melestarikan kebudayaan Jawa Tengah dan Yogyakarta. Dengan adanya
@@ -57,7 +68,7 @@
                         banyak orang, tentunya juga dapat mendongkrak penjualan umkm di jawa tengah, pameran ini juga dapat
                         diakses dimanapun bahkan dapat berinteraksi dengan audiens lain saat pameran sedang berlangsung</p>
                 </div>
-                <div class="col-lg-6 py-2">
+                <div class="col-md-6 col-sm-6 col-xs-12 py-2">
                     <img src="{{ asset('assets/files/pictures/about.jpg') }}" class="img-fluid" alt="...">
                 </div>
             </div>
@@ -177,4 +188,8 @@
         </div>
     </div>
     {{-- End Pre-footer --}}
+<!-- Footer -->
+@section('footer')
+    @include('layouts.include.footer')
+@show
 @endsection
