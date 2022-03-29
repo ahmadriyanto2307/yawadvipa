@@ -11,22 +11,22 @@
             <ul class="navbar-nav text-center">
 
                 <li class="nav-item">
-                    <a class="nav-link active"href="{{ route('home') }}" aria-current="page" href="#">Home</a>
+                    <a class="nav-link active" href="{{ route('home') }}" aria-current="page" href="#">Home</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link active" aria-current="page" href="#">Product&Services</a>
+                    <a class="nav-link active" href="{{ route('jateng') }}" aria-current="page" href="#">Product&Services</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link active" aria-current="page" href="#">Team</a>
+                    <a class="nav-link active" href="{{ route('team') }}" aria-current="page" href="#">Team</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link active" aria-current="page" href="#">Blog</a>
+                    <a class="nav-link active" href="{{ route('blog') }}" aria-current="page" href="#">Blog</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link active" aria-current="page" href="#">About Us</a>
+                    <a class="nav-link active" href="{{ route('about') }}" aria-current="page" href="#">About Us</a>
                 </li>
                 <li class="nav-item">
-                    <a class="btn btn-primary" id="button-mod" href="#">Hubungi Kami</a>
+                    <a class="btn btn-primary" href="{{ route('hubungi') }}" id="button-mod" href="#">Hubungi Kami</a>
                 </li>
             </ul>
         </div>
