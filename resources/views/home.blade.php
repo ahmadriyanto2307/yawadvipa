@@ -1,13 +1,7 @@
 @extends('layouts.main')
 
 @section('content')
-
-<!-- Navigation -->
-@section('header')
-    @include('layouts.include.header')
-@show
-
-{{-- Start Carousel --}}
+    {{-- Start Carousel --}}
     <header>
 
         <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
@@ -60,7 +54,7 @@
         <div class="container py-5">
             <h2 class="text-center pb-5 under-line">About Us</h2>
             <div class="row">
-                <div class="col-md-6 col-sm-6 col-xs-12 align-self-center">
+                <div class="col-lg-6 align-self-center">
                     <p class="text-justify"> Yawadvipa merupakan konsep baru dalam menjelajahi berbagai kebudayaan di jawa
                         tengah yang dilakukan
                         secara virtual bertujuan untuk melestarikan kebudayaan Jawa Tengah dan Yogyakarta. Dengan adanya
@@ -68,7 +62,7 @@
                         banyak orang, tentunya juga dapat mendongkrak penjualan umkm di jawa tengah, pameran ini juga dapat
                         diakses dimanapun bahkan dapat berinteraksi dengan audiens lain saat pameran sedang berlangsung</p>
                 </div>
-                <div class="col-md-6 col-sm-6 col-xs-12 py-2">
+                <div class="col-lg-6 py-2">
                     <img src="{{ asset('assets/files/pictures/about.jpg') }}" class="img-fluid" alt="...">
                 </div>
             </div>
@@ -188,8 +182,4 @@
         </div>
     </div>
     {{-- End Pre-footer --}}
-<!-- Footer -->
-@section('footer')
-    @include('layouts.include.footer')
-@show
 @endsection
