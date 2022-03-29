@@ -1,6 +1,6 @@
 <nav class="navbar navbar-expand-xl navbar-light fixed-top">
     <div class="container">
-        <img class="navbar-brand pe-2" src="{{ asset('assets/files/pictures/logo.png') }}" alt="..." />
+        <img class="navbar-brand" src="{{ asset('assets/files/pictures/logo.png') }}" alt="..." />
         </a>
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup"
             aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
@@ -12,11 +12,7 @@
                     <a class="nav-link active" href="{{ route('home') }}" aria-current="page" href="#">Home</a>
                 </li>
                 <li class="nav-item">
-<<<<<<< HEAD
                     <a class="nav-link active" href="{{ route('product_jateng') }}" aria-current="page" href="#">Product&Services</a>
-=======
-                    <a class="nav-link active" href="{{ route('jateng') }}" aria-current="page" href="#">Product</a>
->>>>>>> 09fd247427bfe9dc4e5d5dd617671787171059bb
                 </li>
                 <li class="nav-item">
                     <a class="nav-link active" href="{{ route('product_jogja') }}" aria-current="page" href="#">Team</a>
@@ -31,7 +27,6 @@
                     <a class="btn btn-primary" id="button-mod" href="#">Hubungi Kami</a>
                 </li>
             </ul>
-
         </div>
     </div>
 </nav>

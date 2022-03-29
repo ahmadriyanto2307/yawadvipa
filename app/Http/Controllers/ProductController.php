@@ -14,11 +14,7 @@ class ProductController extends Controller
      */
     public function product_jateng()
     {
-<<<<<<< HEAD:app/Http/Controllers/ProductController.php
         return view('product_jateng');
-=======
-        return view('about');
->>>>>>> 09fd247427bfe9dc4e5d5dd617671787171059bb:app/Http/Controllers/AboutController.php
     }
 
     /**
