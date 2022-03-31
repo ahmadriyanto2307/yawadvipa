@@ -12,14 +12,14 @@
                     <a class="nav-link active" href="{{ route('home') }}" aria-current="page" href="#">Home</a>
                 </li>
                 <li class="nav-item dropdown">
-                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                    <a class="nav-link " href="#" id="navbarDropdown" role="button"
                         data-bs-toggle="dropdown" aria-expanded="false">
                         Product&Services
                     </a>
                     <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
                         <li><a class="dropdown-item" href="{{ route('product_jateng') }}">Virtual Tour Jawa
                                 Tengah</a></li>
-                        <li><a class="dropdown-item" href="#">Virtual Tour Yogyakarta</a></li>
+                        <li><a class="dropdown-item" href="{{ route('product_jogja') }}">Virtual Tour Yogyakarta</a></li>
                     </ul>
                 </li>
                 <li class="nav-item">
