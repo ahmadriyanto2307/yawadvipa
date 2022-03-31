@@ -83,7 +83,7 @@
     {{-- Start Our Service --}}
     <div class="rounded-3">
         <div class="container py-5">
-            <h2 class="text-center pb-5 under-line">Our Services</h2>
+            <h2 class="text-center pb-5 under-line">Our Product & Services</h2>
             <div class="row">
                 <div class="col align-self-center">
                     <a href="">
@@ -99,6 +99,17 @@
         </div>
     </div>
     {{-- End Our Service --}}
+
+    {{-- Start Our Team --}}
+    <div class="rounded-3">
+        <div class="container py-5">
+            <h2 class="text-center pb-5 under-line">Our Teams</h2>
+            <div class="row">
+                <img src="..." class="rounded mx-auto d-block" alt="...">
+            </div>
+        </div>
+    </div>
+    {{-- End Our Team --}}
 
     {{-- Start FAQ --}}
     <div class="rounded-3">

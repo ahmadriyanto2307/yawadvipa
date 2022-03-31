@@ -9,11 +9,11 @@
     color: #d7a03a !important;
 }
 .navbar-brand:hover,
-.nav-link:hover {
+.nav-item:hover {
     color: #00b950 !important;
 }
 
-.nav-link:hover::after {
+.nav-item:hover::after {
     content: "";
     display: block;
     border-bottom: 3px solid #00b950;
@@ -45,6 +45,11 @@ nav {
 div#jumbotron {
     background-color: #99a5b0;
     color: #fff;
+}
+
+.dropdown:hover .dropdown-menu {
+    display: block;
+    margin-top: 0;
 }
 
 /* End Navbar */
@@ -127,6 +132,10 @@ p.text-justify {
         transform: translateY(-50%);
         bottom: 0;
         top: 50%;
+    }
+
+    .dropdown:hover .dropdown-menu {
+        text-align: center;
     }
 }
 
