@@ -3,7 +3,6 @@
 @section('content')
     {{-- Start Carousel --}}
     <header>
-
         <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
             <div class="carousel-indicators">
                 <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active"
@@ -13,7 +12,8 @@
             </div>
             <div class="carousel-inner">
                 <div class="carousel-item active"
-                    style="background-image: url('{{ asset('assets/files/pictures/slider-bg-1.jpg') }}')">
+                    style="background-image: url('{{ asset('assets/files/pictures/slider-bg-1.jpg') }}')"
+                    id="carousel_header">
                     <div class="carousel-caption">
                         <h1 class="animate__animated animate__bounceInDown animate__slow">Sinau Sareng <br>
                             Yawadvipa</h1>
@@ -23,7 +23,8 @@
                     </div>
                 </div>
                 <div class="carousel-item"
-                    style="background-image: url('{{ asset('assets/files/pictures/slider-bg-2.jpg') }}')">
+                    style="background-image: url('{{ asset('assets/files/pictures/slider-bg-2.jpg') }}')"
+                    id="carousel_header">
                     <div class="carousel-caption">
                         <h1 class="animate__animated animate__rollIn">Smart Eye Virtual<br> and
                             3D Design</h1>
@@ -85,12 +86,12 @@
         <div class="container py-5">
             <h2 class="text-center pb-5 under-line">Our Product & Services</h2>
             <div class="row">
-                <div class="col align-self-center">
+                <div class="col-lg-6 py-1">
                     <a href="">
                         <img src="{{ asset('assets/files/pictures/jateng.webp') }}" class="rounded h-100 w-100" alt="...">
                     </a>
                 </div>
-                <div class="col">
+                <div class="col-lg-6 py-1">
                     <a href="">
                         <img src="{{ asset('assets/files/pictures/jogja.jpg') }}" class="rounded h-100 w-100" alt="...">
                     </a>
@@ -104,9 +105,79 @@
     <div class="rounded-3">
         <div class="container py-5">
             <h2 class="text-center pb-5 under-line">Our Teams</h2>
-            <div class="row">
-                <img src="..." class="rounded mx-auto d-block" alt="...">
+            <div class="row d-flex justify-content-center">
+                <!-- Team Member 7 -->
+                <div class="col-xl-3 col-md-6 mb-4">
+                    <div class="card border-0 shadow h-100">
+                        <img src="https://source.unsplash.com/7u5mwbu7qLg/500x350" class="card-img-top" alt="...">
+                        <div class="card-body text-center">
+                            <h5 class="card-title mb-0">Ahmad Riyanto</h5>
+                            <div class="card-text text-black-50">Web Developer</div>
+                        </div>
+                    </div>
+                </div>
+                <!-- Team Member 1 -->
+                <div class="col-xl-3 col-md-6 mb-4">
+                    <div class="card border-0 shadow h-100">
+                        <img src="{{ asset('assets/files/team/aidaa.png') }}" class="card-img-top" alt="...">
+                        <div class="card-body text-center">
+                            <h5 class="card-title mb-0">Aida Ayuning Fauziah</h5>
+                            <div class="card-text text-black-50">Web Developer</div>
+                        </div>
+                    </div>
+                </div>
+                <!-- Team Member 2 -->
+                <div class="col-xl-3 col-md-6 mb-4">
+                    <div class="card border-0 shadow h-100">
+                        <img src="{{ asset('assets/files/team/Haniff.png') }}" class="card-img-top team" alt="...">
+                        <div class="card-body text-center">
+                            <h5 class="card-title mb-0">Hanif Putra Perdana</h5>
+                            <div class="card-text text-black-50">Web Developer</div>
+                        </div>
+                    </div>
+                </div>
+                <!-- Team Member 3 -->
+                <div class="col-xl-3 col-md-6 mb-4">
+                    <div class="card border-0 shadow h-100">
+                        <img src="{{ asset('assets/files/team/Fikrii.png') }}" class="card-img-top team" alt="...">
+                        <div class="card-body text-center">
+                            <h5 class="card-title mb-0">Muhammad Fikri Abdillah Arifin</h5>
+                            <div class="card-text text-black-50">Web Developer</div>
+                        </div>
+                    </div>
+                </div>
+                <!-- Team Member 4 -->
+                <div class="col-xl-3 col-md-6 mb-4">
+                    <div class="card border-0 shadow h-100">
+                        <img src="{{ asset('assets/files/team/Nazilaa.png') }}" class="card-img-top" alt="...">
+                        <div class="card-body text-center">
+                            <h5 class="card-title mb-0">Nazila Salsabella</h5>
+                            <div class="card-text text-black-50">Web Developer</div>
+                        </div>
+                    </div>
+                </div>
+                <!-- Team Member 5 -->
+                <div class="col-xl-3 col-md-6 mb-4">
+                    <div class="card border-0 shadow h-100">
+                        <img src="{{ asset('assets/files/team/Novaa.png') }}" class="card-img-top" alt="...">
+                        <div class="card-body text-center">
+                            <h5 class="card-title mb-0">Nova Rizky Anggun Purbaningrum</h5>
+                            <div class="card-text text-black-50">Web Developer</div>
+                        </div>
+                    </div>
+                </div>
+                <!-- Team Member 6 -->
+                <div class="col-xl-3 col-md-6 mb-4">
+                    <div class="card border-0 shadow h-100">
+                        <img src="{{ asset('assets/files/team/Sekarr.png') }}" class="card-img-top" alt="...">
+                        <div class="card-body text-center">
+                            <h5 class="card-title mb-0">Sekar Andini Saraswaty</h5>
+                            <div class="card-text text-black-50">Web Developer</div>
+                        </div>
+                    </div>
+                </div>
             </div>
+            <!-- /.row -->
         </div>
     </div>
     {{-- End Our Team --}}

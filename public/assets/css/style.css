@@ -69,7 +69,7 @@ div#jumbotron {
 
 /* Carousel */
 
-.carousel-item {
+.carousel-item#carousel_header {
     height: 100vh;
     min-height: 350px;
     background: no-repeat center center scroll;
@@ -79,7 +79,7 @@ div#jumbotron {
     background-size: cover;
 }
 
-.carousel-item::before {
+.carousel-item#carousel_header::before {
     content: "";
     display: block;
     position: absolute;
@@ -101,6 +101,13 @@ div#jumbotron {
     font-size: 62px;
 }
 /* End Carousel */
+
+/* Start Team */
+img.card-image-top.team{
+    width: 500px;
+    height: 350px;
+}
+/* End Team */
 
 /* Ultility */
 #button-mod {

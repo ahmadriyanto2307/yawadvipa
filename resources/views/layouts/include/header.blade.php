@@ -1,6 +1,6 @@
 <nav class="navbar navbar-expand-xl navbar-light fixed-top">
     <div class="container">
-        <img class="navbar-brand" src="{{ asset('assets/files/pictures/logo.png') }}" alt="..." />
+        <img class="navbar-brand pe-2" src="{{ asset('assets/files/pictures/logo.png') }}" alt="..." />
         </a>
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup"
             aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
@@ -12,14 +12,15 @@
                     <a class="nav-link active" href="{{ route('home') }}" aria-current="page" href="#">Home</a>
                 </li>
                 <li class="nav-item dropdown">
-                    <a class="nav-link " href="#" id="navbarDropdown" role="button"
-                        data-bs-toggle="dropdown" aria-expanded="false">
+                    <a class="nav-link " href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown"
+                        aria-expanded="false">
                         Product&Services
                     </a>
                     <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
                         <li><a class="dropdown-item" href="{{ route('product_jateng') }}">Virtual Tour Jawa
                                 Tengah</a></li>
-                        <li><a class="dropdown-item" href="{{ route('product_jogja') }}">Virtual Tour Yogyakarta</a></li>
+                        <li><a class="dropdown-item" href="{{ route('product_jogja') }}">Virtual Tour Yogyakarta</a>
+                        </li>
                     </ul>
                 </li>
                 <li class="nav-item">

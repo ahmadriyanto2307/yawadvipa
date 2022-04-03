@@ -87,5 +87,4 @@ class ProductController extends Controller
     {
         return view('product_jogja');
     }
-
 }

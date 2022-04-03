@@ -15,5 +15,5 @@ use App\Http\Controllers\ProductController;
 */
 
 Route::get('/', [HomeController::class, 'index'])->name('home');
-Route::get('/product_jateng', [ProductController::class, 'product_jateng'])->name('product_jateng');
-Route::get('/product_jogja', [ProductController::class, 'product_jogja'])->name('product_jogja');
+Route::get('/product/jateng', [ProductController::class, 'product_jateng'])->name('product_jateng');
+Route::get('/product/jogja', [ProductController::class, 'product_jogja'])->name('product_jogja');
