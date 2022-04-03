@@ -51,51 +51,86 @@
     {{-- Start Our Service --}}
     <div class="rounded-3">
         <div class="container pb-5">
-            <h2 class="text-center pb-5 under-line">Virtual Tour Jawa Tengah</h2>
+            <h2 class="text-center pb-3 under-line">Virtual Tour Jawa Tengah</h2>
             <div class="row">
-                <div class="col align-self-center">
+                <div class="col-lg-4 py-1 service">
                     <a href="">
-                        <img src="{{ asset('assets/files/pictures/SEMARANG.jpg') }}" class="rounded h-100 w-100"
-                            alt="...">
+                        <img src="{{ asset('assets/files/pictures/SEMARANG.jpg') }}"
+                            class="rounded h-100 w-100 service-image" alt="...">
                     </a>
+                    <div class="service-caption">
+                        <div class="caption-text">
+                            <h1>Semarang</h1>
+                            <p>Virtual Tour 360</p>
+                        </div>
+                    </div>
                 </div>
-                <div class="col">
+                <div class="col-lg-4 py-1 service">
                     <a href="">
-                        <img src="{{ asset('assets/files/pictures/SALATIGA.jpg') }}" class="rounded h-100 w-100"
-                            alt="...">
+                        <img src="{{ asset('assets/files/pictures/SALATIGA.jpg') }}"
+                            class="rounded h-100 w-100 service-image" alt="...">
                     </a>
+                    <div class="service-caption">
+                        <div class="caption-text">
+                            <h1>Salatiga</h1>
+                            <p>Virtual Tour 360</p>
+                        </div>
+                    </div>
                 </div>
-                <div class="col">
+                <div class="col-lg-4 py-1 service">
                     <a href="">
-                        <img src="{{ asset('assets/files/pictures/PEKALONGAN.webp') }}" class="rounded h-100 w-100"
-                            alt="...">
+                        <img src="{{ asset('assets/files/pictures/PEKALONGAN.webp') }}"
+                            class="rounded h-100 w-100 service-image" alt="...">
                     </a>
+                    <div class="service-caption">
+                        <div class="caption-text">
+                            <h1>Pekalongan</h1>
+                            <p>Virtual Tour 360</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="col-lg-4 py-1 service">
+                    <a href="">
+                        <img src="{{ asset('assets/files/pictures/MAGELANG.jpg') }}"
+                            class="rounded h-100 w-100 service-image" alt="...">
+                    </a>
+                    <div class="service-caption">
+                        <div class="caption-text">
+                            <h1>Magelang</h1>
+                            <p>Virtual Tour 360</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 py-1 service">
+                    <a href="">
+                        <img src="{{ asset('assets/files/pictures/SURAKARTA.jpg') }}"
+                            class="rounded h-100 w-100 service-image" alt="...">
+                    </a>
+                    <div class="service-caption">
+                        <div class="caption-text">
+                            <h1>Surakarta</h1>
+                            <p>Virtual Tour 360</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 py-1 service">
+                    <a href="">
+                        <img src="{{ asset('assets/files/pictures/TEGAL.jpg') }}"
+                            class="rounded h-100 w-100 service-image" alt="...">
+                    </a>
+                    <div class="service-caption">
+                        <div class="caption-text">
+                            <h1>Tegal</h1>
+                            <p>Virtual Tour 360</p>
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>
     </div>
-    <div class="rounded-3">
-        <div class="container pb-5">
-            <div class="row">
-                <div class="col align-self-center">
-                    <a href="">
-                        <img src="{{ asset('assets/files/pictures/MAGELANG.jpg') }}" class="rounded h-100 w-100"
-                            alt="...">
-                    </a>
-                </div>
-                <div class="col">
-                    <a href="">
-                        <img src="{{ asset('assets/files/pictures/SURAKARTA.jpg') }}" class="rounded h-100 w-100"
-                            alt="...">
-                    </a>
-                </div>
-                <div class="col">
-                    <a href="">
-                        <img src="{{ asset('assets/files/pictures/TEGAL.jpg') }}" class="rounded h-100 w-100" alt="...">
-                    </a>
-                </div>
-            </div>
-        </div>
-    </div>
+
     {{-- End Our Service --}}
 @endsection

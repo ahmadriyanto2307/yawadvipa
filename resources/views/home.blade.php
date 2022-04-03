@@ -73,7 +73,7 @@
 
 
     {{-- Start Our Partners --}}
-    <div class="rounded-3" data-aos="fade-down-left" data-aos-duration="2500">
+    <div class="rounded-3" data-aos="fade-down-left" data-aos-duration="1000">
         <div class="container py-5">
             <h2 class="text-center pb-5 under-line">Our Partners</h2>
             <img src="{{ asset('assets/files/pictures/partner.png') }}" class="rounded h-100 w-100" alt="...">
@@ -82,19 +82,33 @@
     {{-- End Our Partners --}}
 
     {{-- Start Our Service --}}
-    <div class="rounded-3" data-aos="zoom-in-up" data-aos-duration="2500">
+    <div class="rounded-3" data-aos="zoom-in-up" data-aos-duration="1000">
         <div class="container py-5">
             <h2 class="text-center pb-5 under-line">Our Product & Services</h2>
             <div class="row">
-                <div class="col-lg-6 py-1">
-                    <a href="">
-                        <img src="{{ asset('assets/files/pictures/jateng.webp') }}" class="rounded h-100 w-100" alt="...">
+                <div class="col-lg-6 py-1 service">
+                    <a href="{{ route('product_jateng') }}">
+                        <img src="{{ asset('assets/files/pictures/jateng.webp') }}"
+                            class="img-fluid h-100 w-100 service-image" alt="...">
                     </a>
+                    <div class="service-caption">
+                        <div class="caption-text">
+                            <h1>Jawa Tengah</h1>
+                            <p>Virtual Tour 360</p>
+                        </div>
+                    </div>
                 </div>
-                <div class="col-lg-6 py-1">
-                    <a href="">
-                        <img src="{{ asset('assets/files/pictures/jogja.jpg') }}" class="rounded h-100 w-100" alt="...">
+                <div class="col-lg-6 py-1 service">
+                    <a href="#">
+                        <img src="{{ asset('assets/files/pictures/jogja.jpg') }}"
+                            class="img-fluid h-100 w-100 service-image" alt="...">
                     </a>
+                    <div class="service-caption">
+                        <div class="caption-text">
+                            <h1>D.I. Yogyakarta</h1>
+                            <p>Virtual Tour 360</p>
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>
@@ -102,7 +116,7 @@
     {{-- End Our Service --}}
 
     {{-- Start Our Team --}}
-    <div class="rounded-3" data-aos="fade-up" data-aos-duration="2000" data-aos-anchor-placement="top-bottom">
+    <div class="rounded-3" data-aos="fade-up" data-aos-duration="1000" data-aos-anchor-placement="top-bottom">
         <div class="container py-5">
             <h2 class="text-center pb-5 under-line">Our Teams</h2>
             <div class="row d-flex justify-content-center">
@@ -190,7 +204,7 @@
     {{-- End Our Team --}}
 
     {{-- Start FAQ --}}
-    <div class="rounded-3" data-aos="fade-up" data-aos-duration="2000">
+    <div class="rounded-3" data-aos="fade-up" data-aos-duration="1000">
         <div class="container py-5 col-lg-6">
             <h2 class="text-center pb-5 under-line">FAQ</h2>
             <div class="accordion accordion-flush" id="accordionFlushExample">

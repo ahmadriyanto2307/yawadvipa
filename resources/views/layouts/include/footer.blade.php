@@ -1,5 +1,5 @@
 {{-- Pre-Footer --}}
-<div class="p-5 rounded-3 bg-light">
+<div class="p-5 rounded-3 bg-light" id="contact-us">
     <div class="container-sm py-5">
         <div class="row">
             <div class="col align-self-center text-center">
@@ -60,7 +60,7 @@
                 <h5 class="pb-3">Contact Us at :</h5>
                 <p>Blue Whale Squad - SVCC 4-1</p>
                 <p><i class="bi bi-envelope" style="color:#d7a03a"></i><span> Email:</span>
-                    mts1kotabkl@gmail.com</p>
+                    bluewhalesquad.4.1@gmail.com</p>
                 <p><i class="bi bi-alarm" style="color:#d7a03a"></i><span> Jam Operasional:</span>
                     8.00 - 17.00 WIB</p>
             </div>

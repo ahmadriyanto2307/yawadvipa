@@ -137,6 +137,23 @@ div#jumbotron {
     margin-bottom: -8px;
 }
 
+#btn-back-to-top {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    display: none;
+}
+
+.btn-to-up {
+    background-color: #d7a03a;
+    border-radius: 100px;
+}
+.btn-to-up:hover {
+    background-color: #176338;
+    border: 1px solid #d7a03a;
+    color:#d7a03a;
+    box-shadow: inset 0px 0px 0px 4px #d7a03a;
+}
 /* End Ultility */
 
 /* Start Medsos */
@@ -162,6 +179,46 @@ div#jumbotron {
 }
 /* End Medsos */
 
+/* Start Our Service */
+.service {
+    position: relative;
+    /* width: 100%; */
+}
+
+.service-image {
+    opacity: 1;
+    transition: .5s ease;
+    backface-visibility: hidden;
+}
+  
+.service-caption {
+    transition: .5s ease;
+    opacity: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    text-align: center;
+}
+  
+.service:hover .service-image {
+    opacity: 0.6;
+}
+  
+.service:hover .service-caption {
+    opacity: 1;
+}
+  
+.caption-text {
+    background-color: rgba(23, 99, 56, 0.8);
+    color: #fff;
+    font-size: 16px;
+}
+
+/* End Our Service */
+
+
 /* Text Alignment */
 p.text-justify {
     margin: 0;
@@ -179,6 +236,19 @@ p.text-justify {
         transform: translateY(-50%);
         bottom: 0;
         top: 50%;
+    }
+
+    .service-caption{
+        opacity: 1;
+    }
+}
+
+@media (max-width: 300px) {
+    .caption-text h1{
+        font-size: 18px;
+    }
+    .caption-text {
+        font-size: 12px;
     }
 }
 

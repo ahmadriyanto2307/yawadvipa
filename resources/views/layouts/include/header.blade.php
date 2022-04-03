@@ -1,6 +1,7 @@
-<nav class="navbar navbar-expand-xl navbar-light fixed-top">
+<nav class="navbar navbar-expand-lg navbar-light fixed-top">
     <div class="container">
-        <img class="navbar-brand pe-2" src="{{ asset('assets/files/pictures/logo.png') }}" alt="..." />
+        <a href="{{ route('home') }}">
+            <img class="navbar-brand pe-2" src="{{ asset('assets/files/pictures/logo.png') }}" alt="..." />
         </a>
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup"
             aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
@@ -24,7 +25,7 @@
                     </ul>
                 </li>
                 <li class="nav-item">
-                    <a class="btn btn-primary" id="button-mod" href="#">Hubungi Kami</a>
+                    <a class="btn btn-primary" id="button-mod" href="#contact-us">Hubungi Kami</a>
                 </li>
             </ul>
         </div>
