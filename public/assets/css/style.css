@@ -69,7 +69,7 @@ div#jumbotron {
 
 /* Carousel */
 
-.carousel-item#carousel_header {
+.carousel-item {
     height: 100vh;
     min-height: 350px;
     background: no-repeat center center scroll;
@@ -79,7 +79,7 @@ div#jumbotron {
     background-size: cover;
 }
 
-.carousel-item#carousel_header::before {
+.carousel-item::before {
     content: "";
     display: block;
     position: absolute;
@@ -103,11 +103,14 @@ div#jumbotron {
 /* End Carousel */
 
 /* Start Team */
-img.card-image-top.team{
-    width: 500px;
-    height: 350px;
-}
+
 /* End Team */
+
+/* Start FAQ */
+.accordion-body{
+    background-color: #E7F1FF;
+}
+/* End FAQ */
 
 /* Ultility */
 #button-mod {
@@ -135,6 +138,29 @@ img.card-image-top.team{
 }
 
 /* End Ultility */
+
+/* Start Medsos */
+.social-icon {
+    height: 70px;
+    width: 70px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+    font-size: 27px;
+    margin-right: 11px;
+    cursor: pointer
+}
+
+.social-icon {
+    transition: 0.4s all;
+}
+
+.social-icon:hover i{
+    color: #ffffff;
+    transform: scale(1.4);
+}
+/* End Medsos */
 
 /* Text Alignment */
 p.text-justify {

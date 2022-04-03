@@ -109,7 +109,7 @@
                 <!-- Team Member 7 -->
                 <div class="col-xl-3 col-md-6 mb-4">
                     <div class="card border-0 shadow h-100">
-                        <img src="https://source.unsplash.com/7u5mwbu7qLg/500x350" class="card-img-top" alt="...">
+                        <img src="{{ asset('assets/files/team/Riyann.png') }}" class="card-img-top" alt="...">
                         <div class="card-body text-center">
                             <h5 class="card-title mb-0">Ahmad Riyanto</h5>
                             <div class="card-text text-black-50">Web Developer</div>
@@ -122,7 +122,7 @@
                         <img src="{{ asset('assets/files/team/aidaa.png') }}" class="card-img-top" alt="...">
                         <div class="card-body text-center">
                             <h5 class="card-title mb-0">Aida Ayuning Fauziah</h5>
-                            <div class="card-text text-black-50">Web Developer</div>
+                            <div class="card-text text-black-50">Business Development</div>
                         </div>
                     </div>
                 </div>
@@ -132,7 +132,7 @@
                         <img src="{{ asset('assets/files/team/Haniff.png') }}" class="card-img-top team" alt="...">
                         <div class="card-body text-center">
                             <h5 class="card-title mb-0">Hanif Putra Perdana</h5>
-                            <div class="card-text text-black-50">Web Developer</div>
+                            <div class="card-text text-black-50">Digital Marketing</div>
                         </div>
                     </div>
                 </div>
@@ -152,7 +152,7 @@
                         <img src="{{ asset('assets/files/team/Nazilaa.png') }}" class="card-img-top" alt="...">
                         <div class="card-body text-center">
                             <h5 class="card-title mb-0">Nazila Salsabella</h5>
-                            <div class="card-text text-black-50">Web Developer</div>
+                            <div class="card-text text-black-50">3D Content Creator</div>
                         </div>
                     </div>
                 </div>
@@ -162,7 +162,7 @@
                         <img src="{{ asset('assets/files/team/Novaa.png') }}" class="card-img-top" alt="...">
                         <div class="card-body text-center">
                             <h5 class="card-title mb-0">Nova Rizky Anggun Purbaningrum</h5>
-                            <div class="card-text text-black-50">Web Developer</div>
+                            <div class="card-text text-black-50">Business Development</div>
                         </div>
                     </div>
                 </div>
@@ -172,7 +172,7 @@
                         <img src="{{ asset('assets/files/team/Sekarr.png') }}" class="card-img-top" alt="...">
                         <div class="card-body text-center">
                             <h5 class="card-title mb-0">Sekar Andini Saraswaty</h5>
-                            <div class="card-text text-black-50">Web Developer</div>
+                            <div class="card-text text-black-50">Digital Marketing</div>
                         </div>
                     </div>
                 </div>
@@ -191,16 +191,14 @@
                     <h2 class="accordion-header" id="flush-headingOne">
                         <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
                             data-bs-target="#flush-collapseOne" aria-expanded="false" aria-controls="flush-collapseOne">
-                            Kenapa harus menggunakan virtual event?
+                            Apa itu virtual tour?
                         </button>
                     </h2>
                     <div id="flush-collapseOne" class="accordion-collapse collapse" aria-labelledby="flush-headingOne"
                         data-bs-parent="#accordionFlushExample">
-                        <div class="accordion-body">Virtual event memiliki potensi luar biasa dalam meningkatkan
-                            keterlibatan audiens dan mempromosikan merek atau produk Anda. Dengan menggunakan virtual event
-                            SVCC, Anda dapat menjangkau ribuan audiens dengan tampilan event yang menarik didukung dengan
-                            teknologi terkini. Nikmati beragam produk SVCC dan rasakan banyak keuntungan dengan virtual
-                            event.
+                        <div class="accordion-body">Virtual tour merupakan inovasi terbaru untuk menjelajah suatu destinasi
+                            tanpa harus keluar rumah karena penggunanya dapat “berjalan- jalan” secara virtual lintas
+                            geografis.
                         </div>
                     </div>
                 </div>
@@ -208,13 +206,15 @@
                     <h2 class="accordion-header" id="flush-headingTwo">
                         <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
                             data-bs-target="#flush-collapseTwo" aria-expanded="false" aria-controls="flush-collapseTwo">
-                            Di mana saya dapat mengetahui pricing jika ingin menggunakan produk SVCC?
+                            Apa arti Yawadvipa?
                         </button>
                     </h2>
                     <div id="flush-collapseTwo" class="accordion-collapse collapse" aria-labelledby="flush-headingTwo"
                         data-bs-parent="#accordionFlushExample">
-                        <div class="accordion-body">Jika Anda ingin mengetahui rincian harga dari produk kami, silakan
-                            menghubungi kami di kontak yang tertera.
+                        <div class="accordion-body">Yawadvipa (IAST: yāvaka dvīpa) diambil dari bahasa Sansekerta yang
+                            diartikan sebagai pulau yang mempunyai banyak tanaman biji-bijian.
+                            Yawadvipa menawarkan konsep baru dalam menjelajahi berbagai kebudayaan di Jawa Tengah dan DIY
+                            yang dilakukan secara virtual sebagai bentuk upaya melestarikan kebudayaan Jawa Tengah dan DIY.
                         </div>
                     </div>
                 </div>
@@ -222,13 +222,16 @@
                     <h2 class="accordion-header" id="flush-headingThree">
                         <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
                             data-bs-target="#flush-collapseThree" aria-expanded="false" aria-controls="flush-collapseThree">
-                            Apakah layanan SVCC dapat custom by request?
+                            Mengapa Yawadvipa virtual tour wajib dicoba?
                         </button>
                     </h2>
                     <div id="flush-collapseThree" class="accordion-collapse collapse" aria-labelledby="flush-headingThree"
                         data-bs-parent="#accordionFlushExample">
-                        <div class="accordion-body">untuk semua layanan seperti landing page dan virtual booth dapat
-                            dikustomisasikan sesuai kebutuhan dan keinginan konsumen.
+                        <div class="accordion-body">Yawadvipa virtual tour wajib dicoba karena menawarkan pengalaman yang
+                            berkesan bagi penggunanya dengan mengunjungi daerah di Jawa Tengah dan Yogyakarta secara virtual
+                            panorama 360! Selain itu dengan Yawadvipa virtual tour ini pengguna dapat menambah wawasan
+                            mereka terkait kebudayaan serta ciri khas dari daerah - daerah yang ada di Jawa Tengah dan
+                            Yogyakarta sehingga dapat meningkatkan upaya pelestarian budaya.
                         </div>
                     </div>
                 </div>
@@ -236,13 +239,157 @@
                     <h2 class="accordion-header" id="flush-headingFour">
                         <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
                             data-bs-target="#flush-collapseFour" aria-expanded="false" aria-controls="flush-collapseFour">
-                            Apakah saya bisa mendapatkan pelayanan secara offline/onsite?
+                            Dimana saya bisa membeli tiket?
                         </button>
                     </h2>
                     <div id="flush-collapseFour" class="accordion-collapse collapse" aria-labelledby="flush-headingFour"
                         data-bs-parent="#accordionFlushExample">
-                        <div class="accordion-body">SVCC akan memberikan layanan untuk kebutuhan acara Anda secara offline
-                            atau onsite seperti penyediaan camera equipment, dll.
+                        <div class="accordion-body">Anda bisa membeli tiket Yawadvipa virtual tour ini melalui link
+                            pembelian yang disediakan di website kami. Isilah semua data yang dibutuhkan kemudian lakukan
+                            transaksi pembayaran. Setelah transkasi pembayaran sukses, Anda akan menerima email yang berisi
+                            nomor e-tiket.
+                        </div>
+                    </div>
+                </div>
+                <div class="accordion-item">
+                    <h2 class="accordion-header" id="flush-headingFive">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#flush-collapseFive" aria-expanded="false" aria-controls="flush-collapseFive">
+                            Bagaimana cara menukar tiket?
+                        </button>
+                    </h2>
+                    <div id="flush-collapseFive" class="accordion-collapse collapse" aria-labelledby="flush-headingFive"
+                        data-bs-parent="#accordionFlushExample">
+                        <div class="accordion-body">Cara penukaran tiket Yawadvipa virtual tour adalah setelah melakukan
+                            transaksi pembayaran, maka akan mendapat email yang berisi nomor e-tiket. Kemudian nomor e-tiket
+                            ini dimasukkan kedalam menu penukaran tiket di web Yawadvipa virtual tour. Setelah itu, anda
+                            akan mulai berlangganan dan bisa melakukan virtual tour di web Yawadvipa.
+                        </div>
+                    </div>
+                </div>
+                <div class="accordion-item">
+                    <h2 class="accordion-header" id="flush-headingSix">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#flush-collapseSix" aria-expanded="false" aria-controls="flush-collapseSix">
+                            Adakah batasan umur dalam membeli tiket?
+                        </button>
+                    </h2>
+                    <div id="flush-collapseSix" class="accordion-collapse collapse" aria-labelledby="flush-headingSix"
+                        data-bs-parent="#accordionFlushExample">
+                        <div class="accordion-body">Tidak ada batasan umur dalam membeli tiket, siapapun dari berbagai usia
+                            dapat mengakses Yawadvipa virtual tour.
+                        </div>
+                    </div>
+                </div>
+                <div class="accordion-item">
+                    <h2 class="accordion-header" id="flush-headingSeven">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#flush-collapseSeven" aria-expanded="false" aria-controls="flush-collapseSeven">
+                            Apa saja benefit yang didapatkan pada Yawadvipa virtual tour?
+                        </button>
+                    </h2>
+                    <div id="flush-collapseSeven" class="accordion-collapse collapse" aria-labelledby="flush-headingSeven"
+                        data-bs-parent="#accordionFlushExample">
+                        <div class="accordion-body">Benefit yang didapatkan dari Yawadvipa virtual tour adalah pengalaman
+                            tour secara virtual yang tentu saja berkesan bagi penggunannya. Selain itu juga dapat
+                            mengedukasi pengguna tentang kebudayaan dan ciri khas dari setiap daerah di Jawa Tengah dan DIY.
+                            Yawadvipa virtual tour ini juga dapat diakses kapan saja dan dimana saja sehingga mudah untuk
+                            pengguna melakukan virtual tour ini.
+                        </div>
+                    </div>
+                </div>
+                <div class="accordion-item">
+                    <h2 class="accordion-header" id="flush-headingEight">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#flush-collapseEight" aria-expanded="false" aria-controls="flush-collapseEight">
+                            Apa informasi yang didapat ketika menggunakan Yawa virtual tour?
+                        </button>
+                    </h2>
+                    <div id="flush-collapseEight" class="accordion-collapse collapse" aria-labelledby="flush-headingEight"
+                        data-bs-parent="#accordionFlushExample">
+                        <div class="accordion-body">Yang Anda dapat ketika menggunakan Yawadvipa virtual tour yaitu
+                            informasi mengenai destinasi wisata, makanan khas, sejarah daerah, oleh - oleh khas, kerajinan
+                            khas, serta budaya di setiap daerah provinsi Jawa Tengah dan DIY. Dengan begitu pengguna akan
+                            mendapat wawasan serta pengalaman baru yang belum pernah didapat sebelumnya.
+
+                        </div>
+                    </div>
+                </div>
+                <div class="accordion-item">
+                    <h2 class="accordion-header" id="flush-headingNine">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#flush-collapseNine" aria-expanded="false" aria-controls="flush-collapseNine">
+                            Dapatkah mengakses virtual tour menggunakan smartphone/ iphone atau hanya bisa melalui PC?
+                        </button>
+                    </h2>
+                    <div id="flush-collapseNine" class="accordion-collapse collapse" aria-labelledby="flush-headingNine"
+                        data-bs-parent="#accordionFlushExample">
+                        <div class="accordion-body">Virtual tour kami kompatibel dengan iPad/iPhone, Smartphone/Tablet
+                            Android, dan PC. Sehingga pengguna masih dapat menggunakan virtual tour ini menggunakan
+                            smartphone/ iphone ketika tidak ada PC.
+                        </div>
+                    </div>
+                </div>
+                <div class="accordion-item">
+                    <h2 class="accordion-header" id="flush-headingTen">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#flush-collapseTen" aria-expanded="false" aria-controls="flush-collapseTen">
+                            Apa yang membedakan Yawadvipa virtual tour dengan virtual tour lainnya?
+                        </button>
+                    </h2>
+                    <div id="flush-collapseTen" class="accordion-collapse collapse" aria-labelledby="flush-headingTen"
+                        data-bs-parent="#accordionFlushExample">
+                        <div class="accordion-body">Kami menyediakan tour virtual daerah Jawa Tengah dan DIY yang disertai
+                            dengan informasi mengenai kebudayaan serta ciri khas di setiap daerah sebagai bentuk pelestarian
+                            budaya Jawa Tengah dan DIY. Virtual tour ini juga dilengkapi dengan pemandangan nyata dan
+                            panorama 360, sehingga pengguna dapat merasakan pengalaman berada di tempat tersebut secara
+                            langsung.
+                        </div>
+                    </div>
+                </div>
+                <div class="accordion-item">
+                    <h2 class="accordion-header" id="flush-headingEleven">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#flush-collapseEleven" aria-expanded="false"
+                            aria-controls="flush-collapseEleven">
+                            Bagaimana jika saya mengalami kendala ketika menggunakan Yawadvipa virtual tour?
+                        </button>
+                    </h2>
+                    <div id="flush-collapseEleven" class="accordion-collapse collapse"
+                        aria-labelledby="flush-headingEleven" data-bs-parent="#accordionFlushExample">
+                        <div class="accordion-body">Jika Anda mengalami kendala atau masalah ketika menggunakan produk
+                            kami, silakan menghubungi kami di kontak yang tertera.
+                        </div>
+                    </div>
+                </div>
+                <div class="accordion-item">
+                    <h2 class="accordion-header" id="flush-headingTwelve">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#flush-collapseTwelve" aria-expanded="false"
+                            aria-controls="flush-collapseTwelve">
+                            Bagaimana jika ingin menjalin partnership?
+                        </button>
+                    </h2>
+                    <div id="flush-collapseTwelve" class="accordion-collapse collapse"
+                        aria-labelledby="flush-headingTwelve" data-bs-parent="#accordionFlushExample">
+                        <div class="accordion-body">Jika ingin menjalin patnership harap mengunjungi website kami dan klik
+                            hubungi kami untuk konsultasi dan berdiskusi patnership, atau bisa juga hubungi kami melalui
+                            media sosial instagram Yawadvipa.
+                        </div>
+                    </div>
+                </div>
+                <div class="accordion-item">
+                    <h2 class="accordion-header" id="flush-headingThreeteen">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#flush-collapseThreeteen" aria-expanded="false"
+                            aria-controls="flush-collapseThreeteen">
+                            Saya punya pertanyaan yang tidak tercantum di sini?
+                        </button>
+                    </h2>
+                    <div id="flush-collapseThreeteen" class="accordion-collapse collapse"
+                        aria-labelledby="flush-headingThreeteen" data-bs-parent="#accordionFlushExample">
+                        <div class="accordion-body">Hubungi kami, kami akan dengan senang hati membantu menjawab pertanyaan
+                            yang tidak tercantum dan menambahkannya di sini.
                         </div>
                     </div>
                 </div>
@@ -250,18 +397,4 @@
         </div>
     </div>
     {{-- End FAQ --}}
-
-    {{-- Pre-Footer --}}
-    <div class="p-5 rounded-3 bg-light">
-        <div class="container-sm py-5">
-            <div class="row">
-                <div class="col align-self-center text-center">
-                    <h2>Konsultasikan ide virtual event Anda secara gratis</h2>
-                    <p> Kami ingin membantu Anda menjawab pertanyaan seputar produk dan layanan SVCC.</p>
-                    <button class="btn btn-primary btn-lg" id="button-mod" type="button">Hubungi kami</button>
-                </div>
-            </div>
-        </div>
-    </div>
-    {{-- End Pre-footer --}}
 @endsection
