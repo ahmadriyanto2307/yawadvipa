@@ -51,7 +51,7 @@
     {{-- End Carousel --}}
 
     {{-- Start About --}}
-    <div class="rounded-3">
+    <div class="rounded-3" data-aos="fade-right" data-aos-duration="1000">
         <div class="container py-5">
             <h2 class="text-center pb-5 under-line">About Us</h2>
             <div class="row">
@@ -73,7 +73,7 @@
 
 
     {{-- Start Our Partners --}}
-    <div class="rounded-3">
+    <div class="rounded-3" data-aos="fade-down-left" data-aos-duration="2500">
         <div class="container py-5">
             <h2 class="text-center pb-5 under-line">Our Partners</h2>
             <img src="{{ asset('assets/files/pictures/partner.png') }}" class="rounded h-100 w-100" alt="...">
@@ -82,7 +82,7 @@
     {{-- End Our Partners --}}
 
     {{-- Start Our Service --}}
-    <div class="rounded-3">
+    <div class="rounded-3" data-aos="zoom-in-up" data-aos-duration="2500">
         <div class="container py-5">
             <h2 class="text-center pb-5 under-line">Our Product & Services</h2>
             <div class="row">
@@ -102,12 +102,13 @@
     {{-- End Our Service --}}
 
     {{-- Start Our Team --}}
-    <div class="rounded-3">
+    <div class="rounded-3" data-aos="fade-up" data-aos-duration="2000" data-aos-anchor-placement="top-bottom">
         <div class="container py-5">
             <h2 class="text-center pb-5 under-line">Our Teams</h2>
             <div class="row d-flex justify-content-center">
                 <!-- Team Member 7 -->
-                <div class="col-xl-3 col-md-6 mb-4">
+                <div class="col-xl-3 col-md-6 mb-4" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="500"
+                    data-aos-anchor-placement="top-bottom">
                     <div class="card border-0 shadow h-100">
                         <img src="{{ asset('assets/files/team/Riyann.png') }}" class="card-img-top" alt="...">
                         <div class="card-body text-center">
@@ -117,7 +118,8 @@
                     </div>
                 </div>
                 <!-- Team Member 1 -->
-                <div class="col-xl-3 col-md-6 mb-4">
+                <div class="col-xl-3 col-md-6 mb-4" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="550"
+                    data-aos-anchor-placement="top-bottom">
                     <div class="card border-0 shadow h-100">
                         <img src="{{ asset('assets/files/team/aidaa.png') }}" class="card-img-top" alt="...">
                         <div class="card-body text-center">
@@ -127,7 +129,8 @@
                     </div>
                 </div>
                 <!-- Team Member 2 -->
-                <div class="col-xl-3 col-md-6 mb-4">
+                <div class="col-xl-3 col-md-6 mb-4" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="600"
+                    data-aos-anchor-placement="top-bottom">
                     <div class="card border-0 shadow h-100">
                         <img src="{{ asset('assets/files/team/Haniff.png') }}" class="card-img-top team" alt="...">
                         <div class="card-body text-center">
@@ -137,7 +140,8 @@
                     </div>
                 </div>
                 <!-- Team Member 3 -->
-                <div class="col-xl-3 col-md-6 mb-4">
+                <div class="col-xl-3 col-md-6 mb-4" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="650"
+                    data-aos-anchor-placement="top-bottom">
                     <div class="card border-0 shadow h-100">
                         <img src="{{ asset('assets/files/team/Fikrii.png') }}" class="card-img-top team" alt="...">
                         <div class="card-body text-center">
@@ -147,7 +151,8 @@
                     </div>
                 </div>
                 <!-- Team Member 4 -->
-                <div class="col-xl-3 col-md-6 mb-4">
+                <div class="col-xl-3 col-md-6 mb-4" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="500"
+                    data-aos-anchor-placement="top-bottom">
                     <div class="card border-0 shadow h-100">
                         <img src="{{ asset('assets/files/team/Nazilaa.png') }}" class="card-img-top" alt="...">
                         <div class="card-body text-center">
@@ -157,7 +162,8 @@
                     </div>
                 </div>
                 <!-- Team Member 5 -->
-                <div class="col-xl-3 col-md-6 mb-4">
+                <div class="col-xl-3 col-md-6 mb-4" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="550"
+                    data-aos-anchor-placement="top-bottom">
                     <div class="card border-0 shadow h-100">
                         <img src="{{ asset('assets/files/team/Novaa.png') }}" class="card-img-top" alt="...">
                         <div class="card-body text-center">
@@ -167,7 +173,8 @@
                     </div>
                 </div>
                 <!-- Team Member 6 -->
-                <div class="col-xl-3 col-md-6 mb-4">
+                <div class="col-xl-3 col-md-6 mb-4" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="600"
+                    data-aos-anchor-placement="top-bottom">
                     <div class="card border-0 shadow h-100">
                         <img src="{{ asset('assets/files/team/Sekarr.png') }}" class="card-img-top" alt="...">
                         <div class="card-body text-center">
@@ -183,11 +190,11 @@
     {{-- End Our Team --}}
 
     {{-- Start FAQ --}}
-    <div class="rounded-3">
+    <div class="rounded-3" data-aos="fade-up" data-aos-duration="2000">
         <div class="container py-5 col-lg-6">
             <h2 class="text-center pb-5 under-line">FAQ</h2>
             <div class="accordion accordion-flush" id="accordionFlushExample">
-                <div class="accordion-item">
+                <div class="accordion-item" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="300">
                     <h2 class="accordion-header" id="flush-headingOne">
                         <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
                             data-bs-target="#flush-collapseOne" aria-expanded="false" aria-controls="flush-collapseOne">
@@ -202,7 +209,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="accordion-item">
+                <div class="accordion-item" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="350">
                     <h2 class="accordion-header" id="flush-headingTwo">
                         <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
                             data-bs-target="#flush-collapseTwo" aria-expanded="false" aria-controls="flush-collapseTwo">
@@ -218,7 +225,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="accordion-item">
+                <div class="accordion-item" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="300">
                     <h2 class="accordion-header" id="flush-headingThree">
                         <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
                             data-bs-target="#flush-collapseThree" aria-expanded="false" aria-controls="flush-collapseThree">
@@ -235,7 +242,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="accordion-item">
+                <div class="accordion-item" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="300">
                     <h2 class="accordion-header" id="flush-headingFour">
                         <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
                             data-bs-target="#flush-collapseFour" aria-expanded="false" aria-controls="flush-collapseFour">
@@ -251,7 +258,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="accordion-item">
+                <div class="accordion-item" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="300">
                     <h2 class="accordion-header" id="flush-headingFive">
                         <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
                             data-bs-target="#flush-collapseFive" aria-expanded="false" aria-controls="flush-collapseFive">
@@ -267,7 +274,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="accordion-item">
+                <div class="accordion-item" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="300">
                     <h2 class="accordion-header" id="flush-headingSix">
                         <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
                             data-bs-target="#flush-collapseSix" aria-expanded="false" aria-controls="flush-collapseSix">
@@ -281,7 +288,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="accordion-item">
+                <div class="accordion-item" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="300">
                     <h2 class="accordion-header" id="flush-headingSeven">
                         <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
                             data-bs-target="#flush-collapseSeven" aria-expanded="false" aria-controls="flush-collapseSeven">
@@ -298,7 +305,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="accordion-item">
+                <div class="accordion-item" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="300">
                     <h2 class="accordion-header" id="flush-headingEight">
                         <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
                             data-bs-target="#flush-collapseEight" aria-expanded="false" aria-controls="flush-collapseEight">
@@ -315,7 +322,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="accordion-item">
+                <div class="accordion-item" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="300">
                     <h2 class="accordion-header" id="flush-headingNine">
                         <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
                             data-bs-target="#flush-collapseNine" aria-expanded="false" aria-controls="flush-collapseNine">
@@ -330,7 +337,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="accordion-item">
+                <div class="accordion-item" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="300">
                     <h2 class="accordion-header" id="flush-headingTen">
                         <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
                             data-bs-target="#flush-collapseTen" aria-expanded="false" aria-controls="flush-collapseTen">
@@ -347,7 +354,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="accordion-item">
+                <div class="accordion-item" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="300">
                     <h2 class="accordion-header" id="flush-headingEleven">
                         <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
                             data-bs-target="#flush-collapseEleven" aria-expanded="false"
@@ -362,7 +369,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="accordion-item">
+                <div class="accordion-item" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="300">
                     <h2 class="accordion-header" id="flush-headingTwelve">
                         <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
                             data-bs-target="#flush-collapseTwelve" aria-expanded="false"
@@ -378,7 +385,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="accordion-item">
+                <div class="accordion-item" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="300">
                     <h2 class="accordion-header" id="flush-headingThreeteen">
                         <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
                             data-bs-target="#flush-collapseThreeteen" aria-expanded="false"
