@@ -90,25 +90,25 @@
                     <a href="{{ route('product_jateng') }}">
                         <img src="{{ asset('assets/files/pictures/jateng.webp') }}"
                             class="img-fluid h-100 w-100 service-image" alt="...">
-                    </a>
-                    <div class="service-caption">
-                        <div class="caption-text">
-                            <h1>Jawa Tengah</h1>
-                            <p>Virtual Tour 360</p>
+                        <div class="service-caption">
+                            <div class="caption-text">
+                                <h1>Jawa Tengah</h1>
+                                <p>Virtual Tour 360</p>
+                            </div>
                         </div>
-                    </div>
+                    </a>
                 </div>
                 <div class="col-lg-6 py-1 service">
                     <a href="#">
                         <img src="{{ asset('assets/files/pictures/jogja.jpg') }}"
                             class="img-fluid h-100 w-100 service-image" alt="...">
-                    </a>
-                    <div class="service-caption">
-                        <div class="caption-text">
-                            <h1>D.I. Yogyakarta</h1>
-                            <p>Virtual Tour 360</p>
+                        <div class="service-caption">
+                            <div class="caption-text">
+                                <h1>D.I. Yogyakarta</h1>
+                                <p>Virtual Tour 360</p>
+                            </div>
                         </div>
-                    </div>
+                    </a>
                 </div>
             </div>
         </div>

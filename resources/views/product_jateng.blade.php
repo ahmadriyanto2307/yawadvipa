@@ -58,37 +58,37 @@
                     <a href="">
                         <img src="{{ asset('assets/files/pictures/SEMARANG.jpg') }}"
                             class="rounded h-100 w-100 service-image" alt="...">
-                    </a>
-                    <div class="service-caption">
-                        <div class="caption-text">
-                            <h1>Semarang</h1>
-                            <p>Virtual Tour 360</p>
+                        <div class="service-caption">
+                            <div class="caption-text">
+                                <h1>Semarang</h1>
+                                <p>Virtual Tour 360</p>
+                            </div>
                         </div>
-                    </div>
+                    </a>
                 </div>
                 <div class="col-lg-4 py-1 service">
                     <a href="">
                         <img src="{{ asset('assets/files/pictures/SALATIGA.jpg') }}"
                             class="rounded h-100 w-100 service-image" alt="...">
-                    </a>
-                    <div class="service-caption">
-                        <div class="caption-text">
-                            <h1>Salatiga</h1>
-                            <p>Virtual Tour 360</p>
+                        <div class="service-caption">
+                            <div class="caption-text">
+                                <h1>Salatiga</h1>
+                                <p>Virtual Tour 360</p>
+                            </div>
                         </div>
-                    </div>
+                    </a>
                 </div>
                 <div class="col-lg-4 py-1 service">
                     <a href="">
                         <img src="{{ asset('assets/files/pictures/PEKALONGAN.webp') }}"
                             class="rounded h-100 w-100 service-image" alt="...">
-                    </a>
-                    <div class="service-caption">
-                        <div class="caption-text">
-                            <h1>Pekalongan</h1>
-                            <p>Virtual Tour 360</p>
+                        <div class="service-caption">
+                            <div class="caption-text">
+                                <h1>Pekalongan</h1>
+                                <p>Virtual Tour 360</p>
+                            </div>
                         </div>
-                    </div>
+                    </a>
                 </div>
             </div>
 
@@ -97,37 +97,37 @@
                     <a href="">
                         <img src="{{ asset('assets/files/pictures/MAGELANG.jpg') }}"
                             class="rounded h-100 w-100 service-image" alt="...">
-                    </a>
-                    <div class="service-caption">
-                        <div class="caption-text">
-                            <h1>Magelang</h1>
-                            <p>Virtual Tour 360</p>
+                        <div class="service-caption">
+                            <div class="caption-text">
+                                <h1>Magelang</h1>
+                                <p>Virtual Tour 360</p>
+                            </div>
                         </div>
-                    </div>
+                    </a>
                 </div>
                 <div class="col-lg-4 py-1 service">
                     <a href="">
                         <img src="{{ asset('assets/files/pictures/SURAKARTA.jpg') }}"
                             class="rounded h-100 w-100 service-image" alt="...">
-                    </a>
-                    <div class="service-caption">
-                        <div class="caption-text">
-                            <h1>Surakarta</h1>
-                            <p>Virtual Tour 360</p>
+                        <div class="service-caption">
+                            <div class="caption-text">
+                                <h1>Surakarta</h1>
+                                <p>Virtual Tour 360</p>
+                            </div>
                         </div>
-                    </div>
+                    </a>
                 </div>
                 <div class="col-lg-4 py-1 service">
                     <a href="">
                         <img src="{{ asset('assets/files/pictures/TEGAL.jpg') }}"
                             class="rounded h-100 w-100 service-image" alt="...">
-                    </a>
-                    <div class="service-caption">
-                        <div class="caption-text">
-                            <h1>Tegal</h1>
-                            <p>Virtual Tour 360</p>
+                        <div class="service-caption">
+                            <div class="caption-text">
+                                <h1>Tegal</h1>
+                                <p>Virtual Tour 360</p>
+                            </div>
                         </div>
-                    </div>
+                    </a>
                 </div>
             </div>
         </div>
