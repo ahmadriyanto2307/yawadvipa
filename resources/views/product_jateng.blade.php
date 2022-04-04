@@ -14,9 +14,12 @@
                 <div class="carousel-item active"
                     style="background-image: url('{{ asset('assets/files/pictures/jateng1.jpg') }}')">
                     <div class="carousel-caption">
-                        <h1 class="animate__animated animate__bounceInDown animate__slow">Sugeng Rawuh Ing Virtual Tour 
-                        <br> Provinsi Jawa Tengah!</h1>
-                        <p class="animate__animated animate__bounceInUp">Kami menawarkan konsep baru dalam menjelajahi lebih jauh mengenai kebudayaan dan pariwisata <br> di banyak kota dan kabupaten di Jawa Tengah dengan virtual tour. 
+                        <h1 class="animate__animated animate__bounceInDown animate__slow">Sugeng Rawuh Ing Virtual Tour
+                            <br> Provinsi Jawa Tengah!
+                        </h1>
+                        <p class="animate__animated animate__bounceInUp">Kami menawarkan konsep baru dalam menjelajahi lebih
+                            jauh mengenai kebudayaan dan pariwisata <br> di banyak kota dan kabupaten di Jawa Tengah dengan
+                            virtual tour.
                         </p>
                     </div>
                 </div>
@@ -24,7 +27,10 @@
                     style="background-image: url('{{ asset('assets/files/pictures/jateng2.jpg') }}')">
                     <div class="carousel-caption">
                         <h1 class="animate__animated animate__rollIn">Sinau Sareng <br>Yawadvipa</h1>
-                        <p class="animate__animated animate__zoomInUp">Bersama Yawadvipa kamu dapat menjelajahi daerah di Provinsi Jawa Tengah <br> dengan efek suara, narasi, dan teks untuk mendukung pengalaman imersif kamu.<br>Kamu juga bisa mempelajari banyak hal yang belum kamu ketahui mengenai Provinsi Jawa Tengah. <br> Yuk, sinau sareng Yawadvipa!
+                        <p class="animate__animated animate__zoomInUp">Bersama Yawadvipa kamu dapat menjelajahi daerah di
+                            Provinsi Jawa Tengah <br> dengan efek suara, narasi, dan teks untuk mendukung pengalaman imersif
+                            kamu.<br>Kamu juga bisa mempelajari banyak hal yang belum kamu ketahui mengenai Provinsi Jawa
+                            Tengah. <br> Yuk, sinau sareng Yawadvipa!
                         </p>
                     </div>
                 </div>
