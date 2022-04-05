@@ -55,7 +55,7 @@
             <h2 class="text-center pb-3 under-line">Virtual Tour Jawa Tengah</h2>
             <div class="row">
                 <div class="col-lg-4 py-1 service">
-                    <a href="">
+                    <a href="http://thanos.kelasmm4.pw/lawangsewu/">
                         <img src="{{ asset('assets/files/pictures/SEMARANG.jpg') }}"
                             class="rounded h-100 w-100 service-image" alt="...">
                         <div class="service-caption">
