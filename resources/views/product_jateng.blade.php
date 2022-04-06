@@ -14,10 +14,10 @@
                 <div class="carousel-item active"
                     style="background-image: url('{{ asset('assets/files/pictures/jateng1.jpg') }}')">
                     <div class="carousel-caption">
-                        <h1 class="animate__animated animate__bounceInDown animate__slow">Sugeng Rawuh Ing Virtual Tour
+                        <h1 class="animate_animated animatebounceInDown animate_slow">Sugeng Rawuh Ing Virtual Tour
                             <br> Provinsi Jawa Tengah!
                         </h1>
-                        <p class="animate__animated animate__bounceInUp">Kami menawarkan konsep baru dalam menjelajahi lebih
+                        <p class="animate_animated animate_bounceInUp">Kami menawarkan konsep baru dalam menjelajahi lebih
                             jauh mengenai kebudayaan dan pariwisata <br> di banyak kota dan kabupaten di Jawa Tengah dengan
                             virtual tour.
                         </p>
@@ -26,8 +26,8 @@
                 <div class="carousel-item"
                     style="background-image: url('{{ asset('assets/files/pictures/jateng2.jpg') }}')">
                     <div class="carousel-caption">
-                        <h1 class="animate__animated animate__rollIn">Sinau Sareng <br>Yawadvipa</h1>
-                        <p class="animate__animated animate__zoomInUp">Bersama Yawadvipa kamu dapat menjelajahi daerah di
+                        <h1 class="animate_animated animate_rollIn">Sinau Sareng <br>Yawadvipa</h1>
+                        <p class="animate_animated animate_zoomInUp">Bersama Yawadvipa kamu dapat menjelajahi daerah di
                             Provinsi Jawa Tengah <br> dengan efek suara, narasi, dan teks untuk mendukung pengalaman imersif
                             kamu.<br>Kamu juga bisa mempelajari banyak hal yang belum kamu ketahui mengenai Provinsi Jawa
                             Tengah. <br> Yuk, sinau sareng Yawadvipa!
@@ -55,13 +55,13 @@
             <h2 class="text-center pb-3 under-line">Virtual Tour Jawa Tengah</h2>
             <div class="row">
                 <div class="col-lg-4 py-1 service">
-                    <a href="http://thanos.kelasmm4.pw/lawangsewu/">
+                    <a href="http://thanos.kelasmm4.pw/lawangsewu/" target="_blank">
                         <img src="{{ asset('assets/files/pictures/SEMARANG.jpg') }}"
                             class="rounded h-100 w-100 service-image" alt="...">
                         <div class="service-caption">
                             <div class="caption-text">
-                                <h1>Semarang</h1>
-                                <p>Virtual Tour 360</p>
+                                <h2>Semarang</h2>
+                                <h4>Virtual Tour 360</h4>
                             </div>
                         </div>
                     </a>
@@ -72,8 +72,8 @@
                             class="rounded h-100 w-100 service-image" alt="...">
                         <div class="service-caption">
                             <div class="caption-text">
-                                <h1>Salatiga</h1>
-                                <p>Virtual Tour 360</p>
+                                <h2>Salatiga</h2>
+                                <h4>Virtual Tour 360</h4>
                             </div>
                         </div>
                     </a>
@@ -84,8 +84,8 @@
                             class="rounded h-100 w-100 service-image" alt="...">
                         <div class="service-caption">
                             <div class="caption-text">
-                                <h1>Pekalongan</h1>
-                                <p>Virtual Tour 360</p>
+                                <h2>Pekalongan</h2>
+                                <h4>Virtual Tour 360</h4>
                             </div>
                         </div>
                     </a>
@@ -99,8 +99,8 @@
                             class="rounded h-100 w-100 service-image" alt="...">
                         <div class="service-caption">
                             <div class="caption-text">
-                                <h1>Magelang</h1>
-                                <p>Virtual Tour 360</p>
+                                <h2>Magelang</h2>
+                                <h4>Virtual Tour 360</h4>
                             </div>
                         </div>
                     </a>
@@ -111,8 +111,8 @@
                             class="rounded h-100 w-100 service-image" alt="...">
                         <div class="service-caption">
                             <div class="caption-text">
-                                <h1>Surakarta</h1>
-                                <p>Virtual Tour 360</p>
+                                <h2>Surakarta</h2>
+                                <h4>Virtual Tour 360</h4>
                             </div>
                         </div>
                     </a>
@@ -123,8 +123,8 @@
                             class="rounded h-100 w-100 service-image" alt="...">
                         <div class="service-caption">
                             <div class="caption-text">
-                                <h1>Tegal</h1>
-                                <p>Virtual Tour 360</p>
+                                <h2>Tegal</h2>
+                                <h4>Virtual Tour 360</h4>
                             </div>
                         </div>
                     </a>

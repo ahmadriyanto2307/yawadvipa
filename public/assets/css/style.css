@@ -190,7 +190,7 @@ div#jumbotron {
     transition: .5s ease;
     backface-visibility: hidden;
 }
-  
+
 .service-caption {
     transition: .5s ease;
     opacity: 0;
@@ -201,19 +201,24 @@ div#jumbotron {
     -ms-transform: translate(-50%, -50%);
     text-align: center;
 }
-  
+
 .service:hover .service-image {
     opacity: 0.6;
 }
-  
+
 .service:hover .service-caption {
     opacity: 1;
 }
-  
+
 .caption-text {
-    background-color: rgba(23, 99, 56, 0.8);
+    border-radius: 100px;
+    background-color: #176338;
     color: #fff;
-    font-size: 16px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+.caption-text:hover{
+    background-color: #d7a03a;
 }
 
 /* End Our Service */
@@ -243,7 +248,7 @@ p.text-justify {
     }
 }
 
-@media (max-width: 575.98px) { 
+@media (max-width: 575.98px) {
     .carousel-caption h1{
         font-size: 36px;
     }

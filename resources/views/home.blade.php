@@ -15,9 +15,9 @@
                     style="background-image: url('{{ asset('assets/files/pictures/slider-bg-1.jpg') }}')"
                     id="carousel_header">
                     <div class="carousel-caption">
-                        <h1 class="animate__animated animate__bounceInDown animate__slow">Sinau Sareng <br>
+                        <h1 class="animate_animated animatebounceInDown animate_slow">Sinau Sareng <br>
                             Yawadvipa</h1>
-                        <p class="animate__animated animate__bounceInUp">Mari Kita Menjelajahi Jawa Tengah Jogja
+                        <p class="animate_animated animate_bounceInUp">Mari Kita Menjelajahi Jawa Tengah Jogja
                             <br>Kamu bisa menemukan Banyak Kebudayaan dan Wisata yang Menarik
                         </p>
                     </div>
@@ -26,9 +26,9 @@
                     style="background-image: url('{{ asset('assets/files/pictures/slider-bg-2.jpg') }}')"
                     id="carousel_header">
                     <div class="carousel-caption">
-                        <h1 class="animate__animated animate__rollIn">Smart Eye Virtual<br> and
+                        <h1 class="animate_animated animate_rollIn">Smart Eye Virtual<br> and
                             3D Design</h1>
-                        <p class="animate__animated animate__zoomInUp">Yawadvipa Merupakan Virtual Tour Online yang
+                        <p class="animate_animated animate_zoomInUp">Yawadvipa Merupakan Virtual Tour Online yang
                             Interaktif
                             <br> Melalui Design dan Animasi 3D Visual Setara 360 Derajat
                             <br> serta Dapat Berinteraksi Langsung dengan Pengunjung yang Lain
@@ -49,6 +49,18 @@
         </div>
     </header>
     {{-- End Carousel --}}
+
+    {{-- Start Welcome --}}
+    <div class="rounded-3" data-aos="fade-right" data-aos-duration="1000">
+        <div class="container py-5">
+            <div class="row justify-content-center self-align-center">
+                <div class="col-lg-6 py-2">
+                    <img src="{{ asset('assets/files/pictures/welcome.png') }}" class="img-fluid" alt="...">
+                </div>
+            </div>
+        </div>
+    </div>
+    {{-- End Welcome --}}
 
     {{-- Start About --}}
     <div class="rounded-3" data-aos="fade-right" data-aos-duration="1000">
@@ -81,10 +93,10 @@
     </div>
     {{-- End Our Partners --}}
 
-    {{-- Start Our Service --}}
+    {{-- Start Product & Service --}}
     <div class="rounded-3" data-aos="zoom-in-up" data-aos-duration="1000">
         <div class="container py-5">
-            <h2 class="text-center pb-5 under-line">Our Product & Services</h2>
+            <h2 class="text-center pb-5 under-line">Virtual Tour</h2>
             <div class="row">
                 <div class="col-lg-6 py-1 service">
                     <a href="{{ route('product_jateng') }}">
@@ -92,8 +104,8 @@
                             class="img-fluid h-100 w-100 service-image" alt="...">
                         <div class="service-caption">
                             <div class="caption-text">
-                                <h1>Jawa Tengah</h1>
-                                <p>Virtual Tour 360</p>
+                                <h2>Jawa Tengah</h2>
+                                <h4>Virtual Tour 360</h4>
                             </div>
                         </div>
                     </a>
@@ -104,8 +116,8 @@
                             class="img-fluid h-100 w-100 service-image" alt="...">
                         <div class="service-caption">
                             <div class="caption-text">
-                                <h1>D.I. Yogyakarta</h1>
-                                <p>Virtual Tour 360</p>
+                                <h2>D.I. Yogyakarta</h2>
+                                <h4>Virtual Tour 360</h4>
                             </div>
                         </div>
                     </a>
@@ -113,7 +125,20 @@
             </div>
         </div>
     </div>
-    {{-- End Our Service --}}
+    <div class="rounded-3" data-aos="zoom-in-up" data-aos-duration="1000">
+        <div class="container py-5">
+            <h2 class="text-center pb-5 under-line">Virtual Expo <br>(Prototype)</h2>
+            <div class="row justify-content-center self-align-center">
+                <div class="col-lg-6 py-1 service">
+                    <div class="ratio ratio-4x3">
+                        <iframe src="https://www.artsteps.com/embed/624c4f3e7a1dc51b746260a6/560/315" frameborder="0"
+                            allowfullscreen></iframe>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    {{-- End Product & Service --}}
 
     {{-- Start Our Team --}}
     <div class="rounded-3" data-aos="fade-up" data-aos-duration="1000" data-aos-anchor-placement="top-bottom">
