@@ -50,6 +50,18 @@
     </header>
     {{-- End Carousel --}}
 
+    {{-- Start Welcome --}}
+    <div class="rounded-3" data-aos="fade-right" data-aos-duration="1000">
+        <div class="container py-5">
+            <div class="row justify-content-center self-align-center">
+                <div class="col-lg-6 py-2">
+                    <img src="{{ asset('assets/files/pictures/welcome.png') }}" class="img-fluid" alt="...">
+                </div>
+            </div>
+        </div>
+    </div>
+    {{-- End Welcome --}}
+
     {{-- Start About --}}
     <div class="rounded-3" data-aos="fade-right" data-aos-duration="1000">
         <div class="container py-5">
@@ -81,10 +93,10 @@
     </div>
     {{-- End Our Partners --}}
 
-    {{-- Start Our Service --}}
+    {{-- Start Product & Service --}}
     <div class="rounded-3" data-aos="zoom-in-up" data-aos-duration="1000">
         <div class="container py-5">
-            <h2 class="text-center pb-5 under-line">Our Product & Services</h2>
+            <h2 class="text-center pb-5 under-line">Virtual Tour</h2>
             <div class="row">
                 <div class="col-lg-6 py-1 service">
                     <a href="{{ route('product_jateng') }}">
@@ -113,7 +125,20 @@
             </div>
         </div>
     </div>
-    {{-- End Our Service --}}
+    <div class="rounded-3" data-aos="zoom-in-up" data-aos-duration="1000">
+        <div class="container py-5">
+            <h2 class="text-center pb-5 under-line">Virtual Expo <br>(Prototype)</h2>
+            <div class="row justify-content-center self-align-center">
+                <div class="col-lg-6 py-1 service">
+                    <div class="ratio ratio-4x3">
+                        <iframe src="https://www.artsteps.com/embed/624c4f3e7a1dc51b746260a6/560/315" frameborder="0"
+                            allowfullscreen></iframe>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    {{-- End Product & Service --}}
 
     {{-- Start Our Team --}}
     <div class="rounded-3" data-aos="fade-up" data-aos-duration="1000" data-aos-anchor-placement="top-bottom">
