@@ -33,7 +33,7 @@
 {{-- End Pre-footer --}}
 
 
-<div class="p-5 rounded-3" id="jumbotron">
+<div class="p-5" id="jumbotron">
     <div class="container py-5">
         <div class="row">
             <div class="col-md-4 col-sm-4 col-xs-12 text-center align-self-center">
@@ -72,6 +72,10 @@
         </div>
     </div>
 </div>
-<div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.2);">
-    © 2021 Copyright: YAWADVIPA
+<div style="background-color: rgba(27, 57, 47, 0.9);">
+    <div class="container">
+        <div class="text-center p-3">
+            © 2022 Copyright: YAWADVIPA
+        </div>
+    </div>
 </div>

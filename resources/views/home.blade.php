@@ -129,7 +129,8 @@
         <div class="container py-5">
             <h2 class="text-center pb-5 under-line">Virtual Expo <br>(Prototype)</h2>
             <div class="row justify-content-center self-align-center">
-                <iframe width="720" height="480" src="https://www.artsteps.com/embed/624c4f3e7a1dc51b746260a6/1280/720" frameborder="0" allowfullscreen></iframe>
+                <iframe width="720" height="480" src="https://www.artsteps.com/embed/624c4f3e7a1dc51b746260a6/1280/720"
+                    frameborder="0" allowfullscreen></iframe>
             </div>
         </div>
     </div>

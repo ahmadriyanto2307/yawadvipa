@@ -57,7 +57,7 @@ nav {
 }
 
 div#jumbotron {
-    background-color: #176338;
+    background-color: #15392F;
     color: #fff;
 }
 .dropdown:hover .dropdown-menu {
@@ -211,7 +211,7 @@ div#jumbotron {
 }
 
 .caption-text {
-    border-radius: 100px;
+    border-radius: 10px;
     background-color: #176338;
     color: #fff;
     padding-left: 20px;

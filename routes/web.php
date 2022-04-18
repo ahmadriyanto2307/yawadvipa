@@ -1,8 +1,7 @@
 <?php
 
 use Illuminate\Support\Facades\Route;
-use App\Http\Controllers\HomeController;
-use App\Http\Controllers\ProductController;
+use App\Http\Controllers\MainController;
 /*
 |--------------------------------------------------------------------------
 | Web Routes
@@ -14,6 +13,7 @@ use App\Http\Controllers\ProductController;
 |
 */
 
-Route::get('/', [HomeController::class, 'index'])->name('home');
-Route::get('/product/jateng', [ProductController::class, 'product_jateng'])->name('product_jateng');
-Route::get('/product/jogja', [ProductController::class, 'product_jogja'])->name('product_jogja');
+Route::get('/', [MainController::class, 'home'])->name('home');
+Route::get('/product/{product_category}/{product_name}', [MainController::class, 'product_list'])->name('product_list');
+Route::get('/product/jateng', [MainController::class, 'product_jateng'])->name('product_jateng');
+Route::get('/product/jogja', [MainController::class, 'product_jogja'])->name('product_jogja');

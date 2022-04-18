@@ -18,10 +18,17 @@
                         Product&Services
                     </a>
                     <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-                        <li><a class="dropdown-item" href="{{ route('product_jateng') }}">Virtual Tour Jawa
+                        {{-- <li><a class="dropdown-item" href="{{ route('product_jateng') }}">Virtual Tour Jawa
                                 Tengah</a></li>
                         <li><a class="dropdown-item" href="{{ route('product_jogja') }}">Virtual Tour Yogyakarta</a>
-                        </li>
+                        </li> --}}
+                        @foreach ($product as $item)
+                            <li>
+                                <a class="dropdown-item"
+                                    href="{{ route('product_list', ['product_name' => $item->name, 'product_category' => $item->productcategory->name]) }}">{{ $item->productCategory->name }}
+                                    {{ $item->name }}</a>
+                            </li>
+                        @endforeach
                     </ul>
                 </li>
                 <li class="nav-item">
