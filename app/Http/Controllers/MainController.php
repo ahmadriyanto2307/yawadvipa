@@ -3,11 +3,10 @@
 namespace App\Http\Controllers;
 
 use App\Models\Product;
+use App\Models\Product_region;
 use App\Models\Product_category;
 use App\Models\Sub_product;
 use App\Models\Sub_product_category;
-use App\Models\Sub_product_list;
-use App\Models\Sub_product_detail;
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\View;
 
@@ -16,13 +15,10 @@ class MainController extends Controller
     public function __construct()
     {
         // Get Data
-        $product = Product::All()->sortBy([
-            ['product_category_id', 'desc'],
-            ['name'],
-        ]);
+        $product_region = Product_region::All();
 
         // Share Data
-        view::share('product', $product);
+        view::share('product_region', $product_region);
     }
 
     public function home()
@@ -30,17 +26,29 @@ class MainController extends Controller
         return view('home');
     }
 
-    public function product_list($product_category, $product_name)
+    public function product($product_category, $product_region)
     {
-        $product = Product::where('name', $product_name)->first();
-        $product_id = $product->id;
-        // dd($product_id);
+        $product_categories = Product_category::where('slug', $product_category)->first();
+        $product_regions = Product_region::where('slug', $product_region)->first();
+        $product_list = Product::where('product_region_id', $product_regions->id)->get();
+        // dd($product_list);
         return view('product_list', [
-            'product_list' => Sub_product::where('product_id', $product_id)->get(),
-            'page_title_category' => $product_category,
-            'page_title_product' => $product_name
+            'product_list' => $product_list,
+            'category' => $product_categories,
+            'region' => $product_regions
         ]);
     }
+    public function product_detail($product_id, product $product)
+    {
+        $product_list = Sub_product::where('product_id', $product_id)->get();
+        $product_category = sub_product_category::all();
+        return view('product_detail', [
+            'product_list' => $product_list,
+            'product_category' => $product_category,
+            'region' => $product->name
+        ]);
+    }
+
 
     public function product_jateng()
     {

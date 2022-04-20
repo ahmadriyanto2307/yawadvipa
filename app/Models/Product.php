@@ -13,4 +13,8 @@ class Product extends Model
     {
         return $this->hasOne(Product_category::class, 'id', 'product_category_id');
     }
+    public function productRegion()
+    {
+        return $this->hasOne(Product_region::class, 'id', 'product_region_id');
+    }
 }

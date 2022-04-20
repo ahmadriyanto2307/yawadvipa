@@ -16,9 +16,11 @@ class CreateProductsTable extends Migration
         Schema::create('products', function (Blueprint $table) {
             $table->id();
             $table->unsignedBigInteger('product_category_id');
+            $table->unsignedBigInteger('product_region_id');
             $table->string('name');
             $table->string('slug');
             $table->foreign('product_category_id')->references('id')->on('product_categories');
+            $table->foreign('product_region_id')->references('id')->on('product_regions');
             $table->timestamps();
         });
     }

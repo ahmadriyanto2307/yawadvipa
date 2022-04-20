@@ -10,10 +10,18 @@
     background-color: #d7a03a;
     color: #fff;
 }
-.dropdown:hover .dropdown-menu {
-    display: block;
-    margin-top: 0;
+
+.drop-down02 {
+    position: relative;
 }
+
+.drop-down02 .sub-menu02 {
+    position: absolute !important;
+    left: 100%;
+    top: 0;
+}
+
+
 .nav-item{
     padding: 0 10px;
 }
@@ -27,7 +35,7 @@
     color: #00b950 !important;
 }
 
-.nav-link:hover::after {
+.nav-link.underline:hover::after {
     content: "";
     display: block;
     border-bottom: 3px solid #176338;
@@ -60,10 +68,7 @@ div#jumbotron {
     background-color: #15392F;
     color: #fff;
 }
-.dropdown:hover .dropdown-menu {
-    display: block;
-    margin-top: 0;
-}
+
 
 /* End Navbar */
 
@@ -246,6 +251,12 @@ p.text-justify {
     .service-caption{
         opacity: 1;
     }
+
+    .drop-down02 .sub-menu02
+	{
+		position:static !important;
+        border-color: #d7a03a;
+	}
 }
 
 @media (max-width: 575.98px) {
