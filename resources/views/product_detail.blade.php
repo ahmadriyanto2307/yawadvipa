@@ -6,7 +6,7 @@
         <div class="container py-5">
 
         </div>
-    </div>>
+    </div>
     {{-- End Jumbotron --}}
 
     {{-- Start Our Service --}}

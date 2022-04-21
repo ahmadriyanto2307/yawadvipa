@@ -19,6 +19,7 @@ class CreateProductsTable extends Migration
             $table->unsignedBigInteger('product_region_id');
             $table->string('name');
             $table->string('slug');
+            $table->string('thumbnail');
             $table->foreign('product_category_id')->references('id')->on('product_categories');
             $table->foreign('product_region_id')->references('id')->on('product_regions');
             $table->timestamps();

@@ -18,7 +18,6 @@ class CreateSubProductsTable extends Migration
             $table->unsignedBigInteger('product_id');
             $table->unsignedBigInteger('sub_product_category_id');
             $table->string('name')->unique();
-            $table->string('slug');
             $table->longText('description');
             $table->text('address');
             $table->string('link');
