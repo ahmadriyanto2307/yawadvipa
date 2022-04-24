@@ -1,5 +1,5 @@
-<nav class="navbar navbar-expand-lg navbar-light fixed-top">
-    <div class="container-fluid">
+<nav class="navbar navbar-expand-lg navbar-light {{ url()->current() == url('') || request()->segment(2) == 'list' ? 'fixed-top' : 'sticky-top' }}">
+    <div class="container">
         <a href="{{ route('home') }}">
             <img class="navbar-brand pe-2" src="{{ asset('assets/files/pictures/logo.png') }}" alt="..." />
         </a>
@@ -11,7 +11,7 @@
             <ul class="navbar-nav text-center">
                 {{-- Navbar Static --}}
                 <li class="nav-item">
-                    <a class="nav-link underline" href="{{ route('home') }}" aria-current="page" href="#">Home</a>
+                    <a class="nav-link underline" href="{{ route('home') }}">Home</a>
                 </li>
 
                 {{-- Navbar Dropdown --}}
@@ -20,7 +20,9 @@
                         Product&Services
                     </a>
                     <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-                        <li><a class="dropdown-item" href="#virtual-expo">Virtual Expo</a></li>
+                        <li><a class="dropdown-item" href="{{ url()->current() == url('') ? '#virtual-expo' : route('home', '#virtual-expo') }}">Virtual
+                                Expo</a>
+                        </li>
                         <li class="nav-item dropdown drop-down02">
                             <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
                                 Virtual Tour
@@ -32,6 +34,10 @@
                             </ul>
                         </li>
                     </ul>
+                </li>
+
+                <li class="nav-item">
+                    <a class="nav-link underline" href="{{ route('blog_list') }}">Blog</a>
                 </li>
 
                 {{-- Contact Us --}}

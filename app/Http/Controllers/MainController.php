@@ -38,9 +38,9 @@ class MainController extends Controller
             'region' => $product_regions
         ]);
     }
-    public function product_detail($product_id, product $product)
+    public function product_detail($id, product $product)
     {
-        $product_list = Sub_product::where('product_id', $product_id)->get();
+        $product_list = Sub_product::where('product_id', $id)->get();
         $product_category = sub_product_category::all();
         return view('product_detail', [
             'product_list' => $product_list,

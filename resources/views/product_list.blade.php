@@ -51,7 +51,7 @@
             <div class="row">
                 @foreach ($product_list as $item)
                     <div class="col-lg-4 py-1 service">
-                        <a href="{{ route('product_detail', [$item->id, $item->slug]) }}">
+                        <a href="{{ route('product_detail', ['id' => $item->id, 'product' => $item->slug]) }}">
                             <img src="{{ asset('assets/files/pictures/SEMARANG.jpg') }}" class="rounded h-100 w-100 service-image" alt="...">
                             <div class="service-caption">
                                 <div class="caption-text">

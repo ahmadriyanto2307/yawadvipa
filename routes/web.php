@@ -2,6 +2,7 @@
 
 use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\MainController;
+use App\Http\Controllers\BlogController;
 /*
 |--------------------------------------------------------------------------
 | Web Routes
@@ -12,9 +13,14 @@ use App\Http\Controllers\MainController;
 | contains the "web" middleware group. Now create something great!
 |
 */
-
+// Home
 Route::get('/', [MainController::class, 'home'])->name('home');
-Route::get('/product/{product_category:slug}/{product_region:slug}/', [MainController::class, 'product'])->name('product');
-Route::get('/product/detail/{product_id}/{product:slug}', [MainController::class, 'product_detail'])->name('product_detail');
+
+// Product
+Route::get('/product/list/{product_category:slug}/{product_region:slug}/', [MainController::class, 'product'])->name('product');
+Route::get('/product/detail/{id}/{product:slug}', [MainController::class, 'product_detail'])->name('product_detail');
 Route::get('/product/jateng', [MainController::class, 'product_jateng'])->name('product_jateng');
 Route::get('/product/jogja', [MainController::class, 'product_jogja'])->name('product_jogja');
+
+// Blog
+Route::get('/blog', [BlogController::class, 'blogList'])->name('blog_list');

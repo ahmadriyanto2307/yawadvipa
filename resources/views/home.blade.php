@@ -93,22 +93,20 @@
             <div class="row">
                 <div class="col-lg-6 py-1 service">
                     <a href="{{ route('product_jateng') }}">
-                        <img src="{{ asset('assets/files/pictures/jateng.webp') }}" class="img-fluid h-100 w-100 service-image" alt="...">
+                        <img src="{{ asset('assets/files/pictures/region/jateng.jpg') }}" class="img-fluid h-100 w-100 service-image" alt="...">
                         <div class="service-caption">
                             <div class="caption-text">
-                                <h2>Jawa Tengah</h2>
-                                <h4>Virtual Tour 360</h4>
+                                <h2>Jawa Tengah 360</h2>
                             </div>
                         </div>
                     </a>
                 </div>
                 <div class="col-lg-6 py-1 service">
                     <a href="#">
-                        <img src="{{ asset('assets/files/pictures/jogja.jpg') }}" class="img-fluid h-100 w-100 service-image" alt="...">
+                        <img src="{{ asset('assets/files/pictures/region/diy.jpg') }}" class="img-fluid h-100 w-100 service-image" alt="...">
                         <div class="service-caption">
                             <div class="caption-text">
-                                <h2>D.I. Yogyakarta</h2>
-                                <h4>Virtual Tour 360</h4>
+                                <h2>Yogyakarta 360</h2>
                             </div>
                         </div>
                     </a>
@@ -116,9 +114,9 @@
             </div>
         </div>
     </div>
-    <div class="rounded-3" data-aos="zoom-in-up" data-aos-duration="1000">
+    <div class="rounded-3" data-aos="zoom-in-up" data-aos-duration="1000" id="virtual-expo">
         <div class="container py-5">
-            <h2 class="text-center pb-5 under-line" id="virtual-expo">Virtual Expo <br>(Prototype)</h2>
+            <h2 class="text-center pb-5 under-line">Virtual Expo <br>(Prototype)</h2>
             <div class="row justify-content-center self-align-center">
                 <iframe width="720" height="480" src="https://www.artsteps.com/embed/624c4f3e7a1dc51b746260a6/1280/720" frameborder="0" allowfullscreen></iframe>
             </div>

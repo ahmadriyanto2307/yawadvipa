@@ -1,31 +1,11 @@
 {{-- Pre-Footer --}}
-<div class="p-5 rounded-3 bg-light" id="contact-us">
+<div class="p-5 rounded-3" id="contact-us" style="background-color: #fffaeb">
     <div class="container-sm py-5">
         <div class="row">
             <div class="col align-self-center text-center">
                 <h2>Konsultasikan ide virtual event Anda secara gratis</h2>
                 <p> Kami ingin membantu Anda menjawab pertanyaan seputar produk dan layanan SVCC.</p>
-                {{-- <button class="btn btn-primary btn-lg" id="button-mod" type="button">Hubungi kami</button> --}}
-            </div>
-        </div>
-        <div class="row d-flex justify-content-center">
-            <div class="col-lg-6">
-                <form>
-                    <h5 class="text-center">Hubungi Kami</h5>
-                    <div class="mb-3">
-                        <label class="form-label">Name</label>
-                        <input type="text" class="form-control">
-                    </div>
-                    <div class="mb-3">
-                        <label class="form-label">Email</label>
-                        <input type="email" class="form-control" aria-describedby="emailHelp">
-                    </div>
-                    <div class="mb-3">
-                        <label class="form-label">Message</label>
-                        <textarea class="form-control"></textarea>
-                    </div>
-                    <button type="submit" class="btn btn-primary" id="button-mod">Send</button>
-                </form>
+                <a href="https://wa.me/+6285546226720" target="_blank" type="button" class="btn btn-primary btn-lg" id="button-mod"> WhatsApp</a>
             </div>
         </div>
     </div>
@@ -60,7 +40,7 @@
                 <h5 class="pb-3">Contact Us at :</h5>
                 <p>Blue Whale Squad - SVCC 4-1</p>
                 <p><i class="bi bi-envelope" style="color:#d7a03a"></i><span> Email:</span>
-                    bluewhalesquad.4.1@gmail.com</p>
+                    YawadvipaVT@gmail.com</p>
                 <p><i class="bi bi-alarm" style="color:#d7a03a"></i><span> Jam Operasional:</span>
                     8.00 - 17.00 WIB</p>
             </div>

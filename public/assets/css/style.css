@@ -35,6 +35,10 @@
     color: #00b950 !important;
 }
 
+.navbar-brand:hover{
+    transform: scale(1.1);
+}
+
 .nav-link.underline:hover::after {
     content: "";
     display: block;
@@ -60,7 +64,7 @@ nav {
 }
 
 .myClass {
-    background-color: white;
+    background-color: #fffaeb;
     transition: all 0.4s ease-in-out;
 }
 
@@ -138,6 +142,16 @@ div#jumbotron {
     border-bottom: 3px solid #d7a03a;
     width: 20%;
     margin: auto;
+    padding-bottom: 5px;
+    margin-bottom: -8px;
+}
+
+.under-line-heading-blog::after {
+    content: "";
+    display: block;
+    border-bottom: 3px solid #d7a03a;
+    width: 20%;
+    margin: left;
     padding-bottom: 5px;
     margin-bottom: -8px;
 }
@@ -275,3 +289,9 @@ p.text-justify {
 }
 
 /* End Mobile Version */
+
+/* Start Tab Version */
+/* @media (min-width:768px) and (max-width: 992px) {
+  
+} */
+/* End Tab Version */
