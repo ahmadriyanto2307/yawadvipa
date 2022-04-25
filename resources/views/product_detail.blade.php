@@ -2,7 +2,7 @@
 
 @section('content')
     {{-- Start List --}}
-    <div class="rounded-3">
+    <div class="rounded-3 pt-3 mt-3">
         <div class="container pb-5">
             <h2 class="text-center pb-3 under-line">360 Virtual Tour {{ $region }}</h2>
             <div class="row">
