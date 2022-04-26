@@ -1,14 +1,15 @@
 /* Navbar */
 .dropdown-menu{
     border-radius: 10px;
-    background-color: #176338;
+    background-color: #fffaeb;
 }
 .dropdown-item{
-    color: #fff;
+    font-weight: bold;
+    color: #d7a03a;
 }
 .dropdown-item:hover{
-    background-color: #d7a03a;
-    color: #fff;
+    background-color: #fffaeb;
+    color: #00b950;
 }
 
 .drop-down02 {
@@ -23,6 +24,7 @@
 
 
 .nav-item{
+    font-weight: bold;
     padding: 0 10px;
 }
 .navbar-brand,
@@ -69,7 +71,7 @@ nav {
 }
 
 div#jumbotron {
-    background-color: #15392F;
+    background-color: #d7a03a;
     color: #fff;
 }
 
@@ -123,6 +125,7 @@ div#jumbotron {
 
 /* Ultility */
 #button-mod {
+    font-weight: bold;
     border-radius: 10px;
     background-color: #d7a03a;
     border-color: #d7a03a;
@@ -193,7 +196,7 @@ div#jumbotron {
 }
 
 .social-icon:hover i{
-    color: #ffffff;
+    color: #176338;
     transform: scale(1.4);
 }
 /* End Medsos */
@@ -230,16 +233,14 @@ div#jumbotron {
 }
 
 .caption-text {
-    border-radius: 10px;
-    background-color: #176338;
-    color: #fff;
-    padding-left: 20px;
-    padding-right: 20px;
+    font-weight: bold;
+    border-top-right-radius: 50px;
+    border-bottom-left-radius: 50px;
+    background-color: #fff;
+    color: #d7a03a;
+    padding-left: 10px;
+    padding-right: 18px;
 }
-.caption-text:hover{
-    background-color: #d7a03a;
-}
-
 /* End Our Service */
 
 
@@ -269,7 +270,7 @@ p.text-justify {
     .drop-down02 .sub-menu02
 	{
 		position:static !important;
-        border-color: #d7a03a;
+        border-color: #176338;
 	}
 }
 
@@ -292,6 +293,6 @@ p.text-justify {
 
 /* Start Tab Version */
 /* @media (min-width:768px) and (max-width: 992px) {
-  
+
 } */
 /* End Tab Version */

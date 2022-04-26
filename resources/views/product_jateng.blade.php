@@ -60,8 +60,8 @@
                             class="rounded h-100 w-100 service-image" alt="...">
                         <div class="service-caption">
                             <div class="caption-text">
-                                <h2>Semarang</h2>
-                                <h4>Virtual Tour 360</h4>
+                                <h4>Semarang</h4>
+                                <h4>360&deg</h4>
                             </div>
                         </div>
                     </a>
@@ -72,8 +72,8 @@
                             class="rounded h-100 w-100 service-image" alt="...">
                         <div class="service-caption">
                             <div class="caption-text">
-                                <h2>Salatiga</h2>
-                                <h4>Virtual Tour 360</h4>
+                                <h4>Salatiga</h4>
+                                <h4>360&deg</h4>
                             </div>
                         </div>
                     </a>
@@ -84,8 +84,8 @@
                             class="rounded h-100 w-100 service-image" alt="...">
                         <div class="service-caption">
                             <div class="caption-text">
-                                <h2>Pekalongan</h2>
-                                <h4>Virtual Tour 360</h4>
+                                <h4>Pekalongan</h4>
+                                <h4>360&deg</h4>
                             </div>
                         </div>
                     </a>
@@ -99,8 +99,8 @@
                             class="rounded h-100 w-100 service-image" alt="...">
                         <div class="service-caption">
                             <div class="caption-text">
-                                <h2>Magelang</h2>
-                                <h4>Virtual Tour 360</h4>
+                                <h4>Magelang</h4>
+                                <h4>360&deg</h4>
                             </div>
                         </div>
                     </a>
@@ -111,8 +111,8 @@
                             class="rounded h-100 w-100 service-image" alt="...">
                         <div class="service-caption">
                             <div class="caption-text">
-                                <h2>Surakarta</h2>
-                                <h4>Virtual Tour 360</h4>
+                                <h4>Surakarta</h4>
+                                <h4>360&deg</h4>
                             </div>
                         </div>
                     </a>
@@ -123,8 +123,8 @@
                             class="rounded h-100 w-100 service-image" alt="...">
                         <div class="service-caption">
                             <div class="caption-text">
-                                <h2>Tegal</h2>
-                                <h4>Virtual Tour 360</h4>
+                                <h4>Tegal</h4>
+                                <h4>360&deg</h4>
                             </div>
                         </div>
                     </a>

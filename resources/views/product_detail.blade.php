@@ -12,8 +12,8 @@
                             <img src="{{ asset('assets/files/pictures/SEMARANG.jpg') }}" class="rounded h-100 w-100 service-image" alt="...">
                             <div class="service-caption">
                                 <div class="caption-text">
-                                    <h2>{{ $item->name }}</h2>
-                                    <h4>Virtual Tour 360</h4>
+                                    <h4>{{ $item->name }}</h4>
+                                    <h4>360&deg</h4>
                                 </div>
                             </div>
                         </a>

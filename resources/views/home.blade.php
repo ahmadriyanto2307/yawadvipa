@@ -96,7 +96,8 @@
                         <img src="{{ asset('assets/files/pictures/region/jateng.jpg') }}" class="img-fluid h-100 w-100 service-image" alt="...">
                         <div class="service-caption">
                             <div class="caption-text">
-                                <h2>Jawa Tengah 360</h2>
+                                <h4>Jawa Tengah</h4>
+                                <h4>360&deg</h4>
                             </div>
                         </div>
                     </a>
@@ -106,7 +107,8 @@
                         <img src="{{ asset('assets/files/pictures/region/diy.jpg') }}" class="img-fluid h-100 w-100 service-image" alt="...">
                         <div class="service-caption">
                             <div class="caption-text">
-                                <h2>Yogyakarta 360</h2>
+                                <h4>Yogyakarta</h4>
+                                <h4>360&deg</h4>
                             </div>
                         </div>
                     </a>

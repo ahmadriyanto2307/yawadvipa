@@ -21,17 +21,17 @@
                 <div class="col d-flex justify-content-evenly">
                     <a href="https://twitter.com/yawadvipa_?t=Em2Pf7MXvOQ4ov9VhRZRyQ&s=08" target="_blank">
                         <span class="social-icon">
-                            <i class="bi bi-twitter" style="font-size: 2rem; color:#d7a03a"></i>
+                            <i class="bi bi-twitter" style="font-size: 2rem;"></i>
                         </span>
                     </a>
                     <a href="https://vt.tiktok.com/ZSdN2eUHR/" target="_blank">
                         <span class="social-icon">
-                            <i class="bi bi-tiktok" style="font-size: 2rem; color:#d7a03a"></i>
+                            <i class="bi bi-tiktok" style="font-size: 2rem;"></i>
                         </span>
                     </a>
                     <a href="https://instagram.com/yawadvipa?utm_medium=copy_link" target="_blank">
                         <span class="social-icon">
-                            <i class="bi bi-instagram" style="font-size: 2rem; color:#d7a03a"></i>
+                            <i class="bi bi-instagram" style="font-size: 2rem;"></i>
                         </span>
                     </a>
                 </div>
@@ -39,9 +39,9 @@
             <div class="col-md-4 col-sm-4 col-xs-12 py-2">
                 <h5 class="pb-3">Contact Us at :</h5>
                 <p>Blue Whale Squad - SVCC 4-1</p>
-                <p><i class="bi bi-envelope" style="color:#d7a03a"></i><span> Email:</span>
+                <p><i class="bi bi-envelope" ></i><span> Email:</span>
                     YawadvipaVT@gmail.com</p>
-                <p><i class="bi bi-alarm" style="color:#d7a03a"></i><span> Jam Operasional:</span>
+                <p><i class="bi bi-alarm" ></i><span> Jam Operasional:</span>
                     8.00 - 17.00 WIB</p>
             </div>
             <div class="col-md-4 col-sm-4 col-xs-12">
@@ -52,10 +52,10 @@
         </div>
     </div>
 </div>
-<div style="background-color: rgba(27, 57, 47, 0.9);">
+<div style="background-color: #fffaeb">
     <div class="container">
-        <div class="text-center p-3">
-            © 2022 Copyright: YAWADVIPA
+        <div class="text-center p-3" style="color: #d7a03a">
+            © 2022 Copyright: Yawadvipa
         </div>
     </div>
 </div>

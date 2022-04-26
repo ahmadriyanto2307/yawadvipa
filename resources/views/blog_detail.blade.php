@@ -14,7 +14,7 @@
             <h3>GENERAL TERMS :</h3>
             <ul class="list-unstyled">
                 <ul>
-                    <li>WAJIB mengkonfirmasi dan mengisi data peserta pada bit.ly/yawadvipacontest.</li>
+                    <li>WAJIB mengkonfirmasi dan mengisi data peserta pada <a href="bit.ly/yawadvipacontest">bit.ly/yawadvipacontest</a></li>
                     <li>Waktu pengunggahan konten dimulai tanggal 27 April 2022 sampai 06 Mei 2022.</li>
                     <li>Konten dapat memuat ciri khas, budaya, atau pariwisata yang ada di Jawa Tengah dan Daerah Istimewa Yogyakarta.</li>
                     <li>Mengikuti akun instagram @Yawadvipa dan mention minimal 3 temanmu pada kolom komentar di postingan berikut (link poster ig kita).</li>
