@@ -100,4 +100,9 @@ class BlogController extends Controller
     {
         return view('blog_list');
     }
+
+    public function blogDetail()
+    {
+        return view('blog_detail');
+    }
 }

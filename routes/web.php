@@ -24,3 +24,4 @@ Route::get('/product/jogja', [MainController::class, 'product_jogja'])->name('pr
 
 // Blog
 Route::get('/blog', [BlogController::class, 'blogList'])->name('blog_list');
+Route::get('/blog/marmud', [BlogController::class, 'blogDetail'])->name('blog_detail');

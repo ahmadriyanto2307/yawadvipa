@@ -8,12 +8,14 @@
         </div>
         <div class="row mb-3">
             <div class="col-lg-6">
-                <img src="{{ asset('assets/files/pictures/blog/marmut.jpeg') }}" class="rounded img-fluid d-block mx-auto" alt="">
+                <a href="{{ route('blog_detail') }}"><img src="{{ asset('assets/files/pictures/blog/marmud.jpg') }}" class="rounded img-fluid d-block mx-auto"
+                        alt=""></a>
             </div>
             <div class="col-lg-6">
-                <h1 class="text-uppercase under-line-heading-blog pb-3">mari mudik reels & photo contest 2022</h1>
-                <p class="text-justify pb-3">mari mudik reels & photo contest 2022 adalah kompetesi yang diadakan oleh svcc 4-1 dalam rangka .....</p>
-                <a href="" type="button" class="btn fw-bold d-flex align-items-center" id="button-mod" style="width: 170px">
+                <h1 class="text-uppercase under-line-heading-blog pb-3">mari mudik reels & photo competition 2022</h1>
+                <p class="text-justify pb-3">Marmud (Mari Mudik) Reels and Photo Competition merupakan sebuah kompetisi umum bidang fotografi dan videografi yang
+                    diselenggarakan oleh Yawadvipa.</p>
+                <a href="{{ route('blog_detail') }}" type="button" class="btn fw-bold d-flex align-items-center" id="button-mod" style="width: 170px">
                     <span class="pe-3">Selengkapnya</span>
                     <i class="bi bi-arrow-right-circle" style="font-size: 24px"></i>
                 </a>
