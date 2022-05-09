@@ -8,6 +8,7 @@
                 <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true"
                     aria-label="Slide 1"></button>
                 <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
             </div>
             <div class="carousel-inner">
                 <div class="carousel-item active" style="background-image: url('{{ asset('assets/files/pictures/slider-bg-1.jpg') }}')" id="carousel_header">
@@ -29,6 +30,8 @@
                             <br> serta Dapat Berinteraksi Langsung dengan Pengunjung yang Lain
                         </p>
                     </div>
+                </div>
+                <div class="carousel-item" style="background-image: url('{{ asset('assets/files/pictures/blog/marmud.jpg') }}')" id="carousel_header">
                 </div>
             </div>
             <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
@@ -92,7 +95,7 @@
             <h2 class="text-center pb-5 under-line">Virtual Tour</h2>
             <div class="row">
                 <div class="col-lg-6 py-1 service">
-                    <a href="{{ route('product_jateng') }}">
+                    <a href="{{ route('product', ['virtual-tour', 'jawa-tengah']) }}">
                         <img src="{{ asset('assets/files/pictures/region/jateng.jpg') }}" class="img-fluid h-100 w-100 service-image" alt="...">
                         <div class="service-caption">
                             <div class="caption-text">
@@ -144,7 +147,7 @@
                 <!-- Team Member 1 -->
                 <div class="col-xl-3 col-md-6 mb-4" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="550" data-aos-anchor-placement="top-bottom">
                     <div class="card border-0 shadow h-100">
-                        <img src="{{ asset('assets/files/team/aidaa.png') }}" class="card-img-top" alt="...">
+                        <img src="{{ asset('assets/files/team/Aidaa.png') }}" class="card-img-top" alt="...">
                         <div class="card-body text-center">
                             <h5 class="card-title mb-0">Aida Ayuning Fauziah</h5>
                             <div class="card-text text-black-50">Business Development</div>
