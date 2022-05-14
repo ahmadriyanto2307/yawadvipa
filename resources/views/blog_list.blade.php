@@ -8,7 +8,7 @@
         </div>
         <div class="row mb-3">
             <div class="col-lg-6">
-                <a href="{{ route('blog_detail') }}"><img src="{{ asset('assets/files/pictures/blog/marmud.jpg') }}" class="rounded img-fluid d-block mx-auto"
+                <a href="{{ route('blog_detail') }}"><img src="{{ asset('assets/files/pictures/blog/marmud.png') }}" class="rounded img-fluid d-block mx-auto"
                         alt=""></a>
             </div>
             <div class="col-lg-6">
