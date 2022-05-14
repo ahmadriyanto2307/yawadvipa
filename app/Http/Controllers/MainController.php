@@ -26,19 +26,31 @@ class MainController extends Controller
         return view('home');
     }
 
+    public function comingSoon()
+    {
+        return view('coming_soon');
+    }
+
     public function product($product_category, $product_region)
     {
         $product_categories = Product_category::where('slug', $product_category)->first();
         $product_regions = Product_region::where('slug', $product_region)->first();
         $product_list = Product::where('product_region_id', $product_regions->id)->get();
+
+        if ($product_list->count() != 0) {
+            return view('product_list', [
+                'product_list' => $product_list,
+                'category' => $product_categories,
+                'region' => $product_regions
+            ]);
+        } else {
+            return view('coming_soon');
+        }
+
+
         // dd($product_list);
-        return view('product_list', [
-            'product_list' => $product_list,
-            'category' => $product_categories,
-            'region' => $product_regions
-        ]);
     }
-    public function product_detail($id, product $product)
+    public function productDetail($id, product $product)
     {
         $product_list = Sub_product::where('product_id', $id)->get();
         $product_category = sub_product_category::all();

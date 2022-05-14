@@ -92,7 +92,7 @@
             <h2 class="text-center pb-5 under-line">Virtual Tour</h2>
             <div class="row">
                 <div class="col-lg-6 py-1 service">
-                    <a href="{{ route('product_jateng') }}">
+                    <a href="{{ route('product', ['virtual-tour', 'jawa-tengah']) }}">
                         <img src="{{ asset('assets/files/pictures/region/jateng.jpg') }}" class="img-fluid h-100 w-100 service-image" alt="...">
                         <div class="service-caption">
                             <div class="caption-text">
@@ -103,7 +103,7 @@
                     </a>
                 </div>
                 <div class="col-lg-6 py-1 service">
-                    <a href="#">
+                    <a href="{{ route('coming_soon') }}">
                         <img src="{{ asset('assets/files/pictures/region/diy.jpg') }}" class="img-fluid h-100 w-100 service-image" alt="...">
                         <div class="service-caption">
                             <div class="caption-text">

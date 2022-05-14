@@ -105,4 +105,8 @@ class BlogController extends Controller
     {
         return view('blog_detail');
     }
+    public function video360()
+    {
+        return view('video360');
+    }
 }
