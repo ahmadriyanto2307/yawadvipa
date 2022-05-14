@@ -31,7 +31,10 @@
                         </p>
                     </div>
                 </div>
-                <div class="carousel-item" style="background-image: url('{{ asset('assets/files/pictures/blog/marmud.jpg') }}')" id="carousel_header">
+                <div class="carousel-item" id="carousel_header">
+                    <video class="img-fluid" autoplay loop muted>
+                        <source src="assets/files/videos/welcome.mp4" type="video/mp4" />
+                    </video>
                 </div>
             </div>
             <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
