@@ -2,89 +2,46 @@
 <html lang="en">
 
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+    <meta name="description" content="Admin Yawadvipa" />
+    <meta name="author" content="Yawadvipa" />
+    <link href="https://cdn.jsdelivr.net/npm/simple-datatables@latest/dist/style.css" rel="stylesheet" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.2/font/bootstrap-icons.css">
+    {{-- CSS Bootstraps --}}
+    <link href="{{ URL::asset('assets/css/styles.css') }}" rel="stylesheet" />
+    <link href=" {{ mix('css/app.css') }}" rel="stylesheet">
+    <link href=" {{ URL::asset('assets/css/admin.css') }}" rel="stylesheet">
     <title>Admin | {{ request()->segment(2) != null ? request()->segment(2) : 'Beranda' }}</title>
-    <style>
-        body {
-            margin: 0;
-            font-family: "Lato", sans-serif;
-        }
-
-        .sidebar {
-            margin: 0;
-            padding: 0;
-            width: 200px;
-            background-color: #f1f1f1;
-            position: fixed;
-            height: 100%;
-            overflow: auto;
-        }
-
-        .sidebar a {
-            display: block;
-            color: black;
-            padding: 16px;
-            text-decoration: none;
-        }
-
-        .sidebar a.active {
-            background-color: #04AA6D;
-            color: white;
-        }
-
-        .sidebar a:hover:not(.active) {
-            background-color: #555;
-            color: white;
-        }
-
-        div.content {
-            margin-left: 200px;
-            padding: 1px 16px;
-            height: 1000px;
-        }
-
-        @media screen and (max-width: 700px) {
-            .sidebar {
-                width: 100%;
-                height: auto;
-                position: relative;
-            }
-
-            .sidebar a {
-                float: left;
-            }
-
-            div.content {
-                margin-left: 0;
-            }
-        }
-
-        @media screen and (max-width: 400px) {
-            .sidebar a {
-                text-align: center;
-                float: none;
-            }
-        }
-
-    </style>
 </head>
 
-<body>
-    <div class="sidebar">
-        <a class="active" href="#home">Home</a>
-        <a href="#news">News</a>
-        <a href="#contact">Contact</a>
-        <a href="#about">About</a>
+<body class="sb-nav-fixed">
+    {{-- Ini Topbar --}}
+    @include('admin.topbar')
+    <div id="layoutSidenav">
+        <div id="layoutSidenav_nav">
+            <nav class="sb-sidenav accordion sb-sidenav-dark" id="sidenavAccordion">
+                {{-- Ini Sidebar --}}
+                @include('admin.sidebar')
+            </nav>
+        </div>
+        <div id="layoutSidenav_content">
+            <main>
+                <div class="container-fluid px-4">
+                    {{-- Ini Content --}}
+                    @yield('content')
+            </main>
+            {{-- Ini Footer --}}
+            @include('admin.footer')
+        </div>
     </div>
-
-    <div class="content">
-        <h2>Responsive Sidebar Example</h2>
-        <p>This example use media queries to transform the sidebar to a top navigation bar when the screen size is 700px or less.</p>
-        <p>We have also added a media query for screens that are 400px or less, which will vertically stack and center the navigation links.</p>
-        <h3>Resize the browser window to see the effect.</h3>
-    </div>
+    <script src="https://cdn.jsdelivr.net/npm/simple-datatables@latest" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.8.0/Chart.min.js" crossorigin="anonymous"></script>
+    <script src="{{ URL::asset('assets/js/scripts.js') }}"></script>
+    <script src="{{ URL::asset('assets/js/datatables-simple-demo.js') }}"></script>
+    <script src="{{ mix('js/app.js') }}"></script>
+    <script src="{{ URL::asset('assets/js/admin.js') }}"></script>
 </body>
 
 </html>

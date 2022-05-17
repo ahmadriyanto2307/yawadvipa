@@ -29,4 +29,9 @@ Route::get('/blog/marmud', [BlogController::class, 'blogDetail'])->name('blog_de
 Route::get('/blog/history/lawangsewu-360', [BlogController::class, 'video360'])->name('video360');
 
 // Admin
-Route::get('/admin', [AdminController::class, 'dashboard'])->name('dashboard');
+
+// Dashboard
+Route::get('/admin', [AdminController::class, 'dashboard'])->name('admin.dashboard');
+
+// Product
+Route::get('/admin/product', [AdminController::class, 'productIndex'])->name('admin.productIndex');
