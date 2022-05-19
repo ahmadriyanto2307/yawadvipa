@@ -20,7 +20,13 @@
     <link rel="stylesheet" href="{{ URL::asset('assets/css/style.css?v=1.0.1.25') }}">
     {{-- ?v=1.0.0.7 --}}
     {{-- Font --}}
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Anton">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Poppins">
+    <style>
+        body
+              {
+                 font-family: 'Poppins';
+              }
+   </style>
     <script src="https://aframe.io/releases/1.3.0/aframe.min.js"></script>
     @yield('script')
     <title>Yawadvipa | Home</title>

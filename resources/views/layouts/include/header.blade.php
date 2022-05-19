@@ -1,7 +1,7 @@
 <nav class="navbar navbar-expand-lg navbar-light {{ url()->current() == url('') || request()->segment(2) == 'list' ? 'fixed-top' : 'sticky-top' }}">
     <div class="container">
         <a href="{{ route('home') }}">
-            <img class="navbar-brand pe-2" src="{{ asset('assets/files/pictures/logo.png') }}" alt="..." />
+            <img class="navbar-brand pe-2" src="{{ asset('assets/files/pictures/logoijo.png') }}" alt="..." />
         </a>
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup"
             aria-expanded="false" aria-label="Toggle navigation">

@@ -64,10 +64,11 @@
     {{-- Start About --}}
     <div class="rounded-3" data-aos="fade-right" data-aos-duration="1000">
         <div class="container py-5">
-            <h2 class="text-center pb-5 under-line">About Us</h2>
+            <h2 class="text-center pb-5 under-line" style="font-weight: bold">About Us</h2>
             <div class="row">
                 <div class="col-lg-6 align-self-center">
-                    <p class="text-justify"> Yawadvipa merupakan konsep baru dalam menjelajahi berbagai kebudayaan di jawa
+                    <h1 class="text-center" style="font-weight: bold">Yawadvipa Virtual Tour</h1>
+                    <p class="text-justify">Merupakan konsep baru dalam menjelajahi berbagai kebudayaan di jawa
                         tengah yang dilakukan
                         secara virtual bertujuan untuk melestarikan kebudayaan Jawa Tengah dan Yogyakarta. Dengan adanya
                         Virtual Tour ini, banyak kebudayaan dari berbagai daerah di Jawa tengah yang akan dikenalkan pada
@@ -84,9 +85,9 @@
 
 
     {{-- Start Our Partners --}}
-    <div class="rounded-3" data-aos="zoom-in-up" data-aos-duration="1000">
+    <div class="rounded-3" data-aos="zoom-in-up" data-aos-duration="1000" ></i>>
         <div class="container py-5">
-            <h2 class="text-center pb-5 under-line">Our Partners</h2>
+            <h2 class="text-center pb-5 under-line" style="font-weight: bold">Our Partners</h2>
             <img src="{{ asset('assets/files/pictures/partner.png') }}" class="rounded h-100 w-100" alt="...">
         </div>
     </div>
@@ -95,7 +96,7 @@
     {{-- Start Product & Service --}}
     <div class="rounded-3" data-aos="zoom-in-up" data-aos-duration="1000">
         <div class="container py-5">
-            <h2 class="text-center pb-5 under-line">Virtual Tour</h2>
+            <h2 class="text-center pb-5 under-line" style="font-weight: bold">Virtual Tour</h2>
             <div class="row">
                 <div class="col-lg-6 py-1 service">
                     <a href="{{ route('product', ['virtual-tour', 'jawa-tengah']) }}">
@@ -124,7 +125,7 @@
     </div>
     <div class="rounded-3" data-aos="zoom-in-up" data-aos-duration="1000" id="virtual-expo">
         <div class="container py-5">
-            <h2 class="text-center pb-5 under-line">Virtual Expo <br>(Prototype)</h2>
+            <h2 class="text-center pb-5 under-line" style="font-weight: bold">Virtual Expo <br>(Prototype)</h2>
             <div class="row justify-content-center self-align-center">
                 <iframe width="720" height="480" src="https://www.artsteps.com/embed/624c4f3e7a1dc51b746260a6/1280/720" frameborder="0" allowfullscreen></iframe>
             </div>
@@ -135,7 +136,7 @@
     {{-- Start Our Team --}}
     <div class="rounded-3" data-aos="fade-up" data-aos-duration="1000" data-aos-anchor-placement="top-bottom">
         <div class="container py-5">
-            <h2 class="text-center pb-5 under-line">Our Teams</h2>
+            <h2 class="text-center pb-5 under-line" style="font-weight: bold">Our Teams</h2>
             <div class="row d-flex justify-content-center">
                 <!-- Team Member 7 -->
                 <div class="col-xl-3 col-md-6 mb-4" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="500" data-aos-anchor-placement="top-bottom">
@@ -216,7 +217,7 @@
     {{-- Start FAQ --}}
     <div class="rounded-3" data-aos="fade-up" data-aos-duration="1000">
         <div class="container py-5 col-lg-6">
-            <h2 class="text-center pb-5 under-line">FAQ</h2>
+            <h2 class="text-center pb-5 under-line" style="font-weight: bold">FAQ</h2>
             <div class="accordion accordion-flush" id="accordionFlushExample">
                 <div class="accordion-item" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="300">
                     <h2 class="accordion-header" id="flush-headingOne">

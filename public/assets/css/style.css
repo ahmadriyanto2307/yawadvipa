@@ -1,15 +1,17 @@
 /* Navbar */
 .dropdown-menu{
     border-radius: 10px;
-    background-color: #fffaeb;
+    background-color: #fff;
+    border-color: #fff;
 }
 .dropdown-item{
     font-weight: bold;
-    color: #d7a03a;
+    color: #176338;
 }
 .dropdown-item:hover{
-    background-color: #fffaeb;
-    color: #00b950;
+    background-color: #fff;
+    border-color: #fff;
+    color: #d7a03a;
 }
 
 .drop-down02 {
@@ -29,12 +31,12 @@
 }
 .navbar-brand,
 .nav-link {
-    color: #d7a03a !important;
+    color: #176338 !important;
     padding-right: 50%;
 }
 .navbar-brand:hover,
 .nav-link:hover {
-    color: #00b950 !important;
+    color: #d7a03a !important;
 }
 
 .navbar-brand:hover{
@@ -44,7 +46,7 @@
 .nav-link.underline:hover::after {
     content: "";
     display: block;
-    border-bottom: 3px solid #176338;
+    border-bottom: 3px solid #d7a03a;
     width: 50%;
     margin: auto;
     padding-bottom: 5px;
@@ -53,20 +55,20 @@
 
 .nav-link.contact-us {
     color: white !important;
-    background-color: #d7a03a;
+    background-color: #176338;
     border-radius: 15px;
 }
 .nav-link.contact-us:hover {
-    background-color: #00b950;
+    background-color: #d7a03a;
     box-shadow: 10px;
 }
 
-nav {
+nav {background-color: #fff;
     transition: all 0.4s ease-in-out;
 }
 
 .myClass {
-    background-color: #fffaeb;
+    background-color: #fff;
     transition: all 0.4s ease-in-out;
 }
 
@@ -108,7 +110,6 @@ div#jumbotron {
     top: 58%;
 }
 .carousel-caption > h1 {
-    font-family: Anton;
     font-size: 62px;
 }
 /* End Carousel */
@@ -125,14 +126,16 @@ div#jumbotron {
 
 /* Ultility */
 #button-mod {
+    color: #fff;
     font-weight: bold;
     border-radius: 10px;
-    background-color: #d7a03a;
-    border-color: #d7a03a;
+    background-color: #176338;
+    border-color: #176338;
 }
 #button-mod:hover {
-    border-color: #176338;
-    background-color: #176338;
+    color: #fff;
+    border-color: #d7a03a;
+    background-color: #d7a03a;
     border-width: -1px;
 }
 #color-mod {
