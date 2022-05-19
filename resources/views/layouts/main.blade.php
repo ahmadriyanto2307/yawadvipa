@@ -15,7 +15,7 @@
     {{-- Icon Bootstrap --}}
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.1/font/bootstrap-icons.css">
     <!-- Bootstrap CSS -->
-    <link href=" {{ mix('css/app.css') }}" rel="stylesheet">
+    <link href=" {{ asset('css/app.css') }}" rel="stylesheet">
     {{-- CSS --}}
     <link rel="stylesheet" href="{{ URL::asset('assets/css/style.css?v=1.0.1.25') }}">
     {{-- ?v=1.0.0.7 --}}
