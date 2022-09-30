@@ -1,14 +1,14 @@
 /* Navbar */
-.dropdown-menu{
+.dropdown-menu {
     border-radius: 10px;
     background-color: #fff;
     border-color: #fff;
 }
-.dropdown-item{
+.dropdown-item {
     font-weight: bold;
     color: #176338;
 }
-.dropdown-item:hover{
+.dropdown-item:hover {
     background-color: #fff;
     border-color: #fff;
     color: #d7a03a;
@@ -24,8 +24,7 @@
     top: 0;
 }
 
-
-.nav-item{
+.nav-item {
     font-weight: bold;
     padding: 0 10px;
 }
@@ -39,7 +38,7 @@
     color: #d7a03a !important;
 }
 
-.navbar-brand:hover{
+.navbar-brand:hover {
     transform: scale(1.1);
 }
 
@@ -63,7 +62,8 @@
     box-shadow: 10px;
 }
 
-nav {background-color: #fff;
+nav {
+    background-color: #fff;
     transition: all 0.4s ease-in-out;
 }
 
@@ -76,7 +76,6 @@ div#jumbotron {
     background-color: #d7a03a;
     color: #fff;
 }
-
 
 /* End Navbar */
 
@@ -119,8 +118,8 @@ div#jumbotron {
 /* End Team */
 
 /* Start FAQ */
-.accordion-body{
-    background-color: #E7F1FF;
+.accordion-body {
+    background-color: #e7f1ff;
 }
 /* End FAQ */
 
@@ -176,7 +175,7 @@ div#jumbotron {
 .btn-to-up:hover {
     background-color: #176338;
     border: 1px solid #d7a03a;
-    color:#d7a03a;
+    color: #d7a03a;
     box-shadow: inset 0px 0px 0px 4px #d7a03a;
 }
 /* End Ultility */
@@ -191,14 +190,14 @@ div#jumbotron {
     color: #fff;
     font-size: 27px;
     margin-right: 11px;
-    cursor: pointer
+    cursor: pointer;
 }
 
 .social-icon {
     transition: 0.4s all;
 }
 
-.social-icon:hover i{
+.social-icon:hover i {
     color: #176338;
     transform: scale(1.4);
 }
@@ -212,12 +211,12 @@ div#jumbotron {
 
 .service-image {
     opacity: 1;
-    transition: .5s ease;
+    transition: 0.5s ease;
     backface-visibility: hidden;
 }
 
 .service-caption {
-    transition: .5s ease;
+    transition: 0.5s ease;
     opacity: 0;
     position: absolute;
     top: 50%;
@@ -246,7 +245,6 @@ div#jumbotron {
 }
 /* End Our Service */
 
-
 /* Text Alignment */
 p.text-justify {
     margin: 0;
@@ -266,25 +264,24 @@ p.text-justify {
         top: 50%;
     }
 
-    .service-caption{
+    .service-caption {
         opacity: 1;
     }
 
-    .drop-down02 .sub-menu02
-	{
-		position:static !important;
+    .drop-down02 .sub-menu02 {
+        position: static !important;
         border-color: #176338;
-	}
+    }
 }
 
 @media (max-width: 575.98px) {
-    .carousel-caption h1{
+    .carousel-caption h1 {
         font-size: 36px;
     }
- }
+}
 
 @media (max-width: 300px) {
-    .caption-text h1{
+    .caption-text h1 {
         font-size: 18px;
     }
     .caption-text {
